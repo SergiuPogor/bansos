@@ -1,10 +1,14 @@
 <script lang="ts">
 	import GithubBadge from '$lib/components/GithubBadge.svelte';
+	import BansosForm from '$lib/components/BansosForm.svelte';
 	import {
+		bansosList,
 		getCommitContributorStats,
 		getContributorStats,
 		type ContributorSummary
 	} from '$lib/data/bansos';
+
+	type TabId = 'form' | 'npx' | 'git' | 'ai';
 
 	const contributors: ContributorSummary[] = getContributorStats();
 	const commitContributors = getCommitContributorStats().sort((a, b) => {
@@ -12,33 +16,97 @@
 		if (b.login === 'wauputr4') return 1;
 		return 0;
 	});
-	const singleLineExample =
-		'npx bansosdev add --id contoh-bansos --title "Contoh" --provider "Provider" --description "Deskripsi singkat" --benefits "Benefit 1|Benefit 2" --validity-type "uncertain" --validity-desc "Berlaku sampai slot habis" --requirements "Buat akun|Klaim program" --cta-link "https://example.com" --contributor-name "Nama Kamu" --contributor-url "https://example.com" --tags "Cloud,Gratisan" --status active';
-	const agentSkillInstallCommand =
+
+	const tabs: { id: TabId; label: string; icon: string }[] = [
+		{ id: 'form', label: 'Form', icon: 'fa-solid fa-pen-to-square' },
+		{ id: 'npx', label: 'npx CLI', icon: 'fa-solid fa-terminal' },
+		{ id: 'git', label: 'Git Clone', icon: 'fa-solid fa-code-branch' },
+		{ id: 'ai', label: 'AI Agent', icon: 'fa-solid fa-robot' }
+	];
+
+	let activeTab = $state<TabId>('form');
+
+	const examples = bansosList.filter((i) => i.status === 'active').slice(0, 3);
+
+	function generateNpxCommand(item: (typeof bansosList)[number]): string {
+		const parts = [
+			'npx bansosdev add \\',
+			`  --id ${item.id} \\`,
+			`  --title "${item.title}" \\`,
+			`  --provider "${item.provider}" \\`,
+			`  --description "${item.description}" \\`,
+			`  --benefits "${item.benefits.join('|')}" \\`,
+			`  --validity-type ${item.validity.type} \\`
+		];
+
+		if (item.validity.date) {
+			parts.push(`  --validity-date ${item.validity.date} \\`);
+		}
+		if (item.validity.description) {
+			parts.push(`  --validity-desc "${item.validity.description}" \\`);
+		}
+
+		parts.push(`  --requirements "${item.requirements.join('|')}" \\`);
+		parts.push(`  --cta-link "${item.ctaLink}" \\`);
+		parts.push(`  --tags "${item.tags.join(',')}" \\`);
+		parts.push(`  --status ${item.status}`);
+
+		return parts.join('\n');
+	}
+
+	function generateGitCommand(item: (typeof bansosList)[number]): string {
+		const branchName = `add/${item.id}`;
+		const parts = [
+			'git clone https://github.com/wauputr4/bansos.git',
+			'cd bansos',
+			'npm install',
+			'',
+			'npm run add:bansos -- \\',
+			`  --id ${item.id} \\`,
+			`  --title "${item.title}" \\`,
+			`  --provider "${item.provider}" \\`,
+			`  --description "${item.description}" \\`,
+			`  --benefits "${item.benefits.join('|')}" \\`,
+			`  --validity-type ${item.validity.type} \\`
+		];
+
+		if (item.validity.date) {
+			parts.push(`  --validity-date ${item.validity.date} \\`);
+		}
+		if (item.validity.description) {
+			parts.push(`  --validity-desc "${item.validity.description}" \\`);
+		}
+
+		parts.push(`  --requirements "${item.requirements.join('|')}" \\`);
+		parts.push(`  --cta-link "${item.ctaLink}" \\`);
+		parts.push(`  --tags "${item.tags.join(',')}" \\`);
+		parts.push(`  --status ${item.status}`);
+		parts.push('');
+		parts.push(`git checkout -b ${branchName}`);
+		parts.push('git add .');
+		parts.push(`git commit -m "feat: add ${item.title}"`);
+		parts.push(`git push origin ${branchName}`);
+		parts.push('');
+		parts.push(
+			`gh pr create --title "feat: add ${item.title}" --body "Added ${item.provider} to bansos list" --base main`
+		);
+
+		return parts.join('\n');
+	}
+
+	function generateAiPrompt(item: (typeof bansosList)[number]): string {
+		return `Use $bansos-add-entry to research and add this bansos to bansos.dev:\n\nTitle: ${item.title}\nProvider: ${item.provider}\nURL: ${item.ctaLink}\n\nPlease research the source, verify the benefits and requirements, then prepare a valid submission.`;
+	}
+
+	const npxExamples = examples.map(generateNpxCommand);
+	const gitExamples = examples.map(generateGitCommand);
+	const aiExamples = examples.map(generateAiPrompt);
+
+	const aiSkillInstall =
 		"npx skills add wauputr4/skill-bansos --skill bansos-add-entry --agent '*'";
-	const agentPromptExample =
-		'Use $bansos-add-entry to research this source and prepare a valid bansos.dev submission: https://example.com';
-	const multilineExample = [
-		'npx bansosdev add \\',
-		'  --id namecom-domain-app \\',
-		'  --title "Promo Domain .DEV & .APP Gratis dari Name.com" \\',
-		'  --provider "Name.com" \\',
-		'  --description "Domain .dev dan .app gratis buat developer yang mau rilis aplikasi tanpa keluar budget domain." \\',
-		'  --benefits "Domain .dev dan .app gratis|Tidak perlu kartu kredit|Limit 1 domain per akun|Promo code DEVWEEK26 sudah tidak aktif" \\',
-		'  --validity-type "uncertain" \\',
-		'  --validity-desc "Sudah tidak aktif (promo code tidak bisa digunakan lagi)" \\',
-		'  --requirements "Punya akun Name.com aktif|Pilih domain .dev atau .app yang tersedia|Gunakan promo code pas checkout" \\',
-		'  --promo-code "DEVWEEK26" \\',
-		'  --published-at "2026-06-11" \\',
-		'  --cta-link "https://www.name.com" \\',
-		'  --contributor-name "Wauputra" \\',
-		'  --contributor-url "https://wau.my.id" \\',
-		'  --tags "Domain,Gratisan,No Credit Card" \\',
-		'  --featured true \\',
-		'  --status expired'
-	].join('\n');
-	let copiedNotice = $state('');
+
 	let copiedId = $state('');
+	let copiedNotice = $state('');
 
 	const copyToClipboard = async (text: string, id: string) => {
 		try {
@@ -68,9 +136,8 @@
 		<p class="eyebrow">Kontribusi</p>
 		<h1 class="text-gradient">Punya info bansos? Jangan dinikmati sendirian.</h1>
 		<p>
-			Info baru bisa ditambahkan lewat CLI. Kamu submit issue dari hasil command, lalu bot akan
-			bikin Pull Request otomatis kalau payload JSON valid. Isi minimalnya: nama program, provider,
-			benefit, syarat klaim, masa berlaku, link official, tag, dan nama kontributor.
+			Pilih cara kontribusi yang paling nyaman buat kamu. Semua cara di bawah akan menghasilkan
+			payload JSON yang sama, lalu bot otomatis bikin Pull Request dari issue yang kamu submit.
 		</p>
 
 		<div class="repo-status-card">
@@ -78,155 +145,204 @@
 			<GithubBadge />
 		</div>
 
-		<div class="command-box">
-			<p>Contoh submit via CLI (format lengkap yang diterima):</p>
-			<div class="command-panel">
-				<div class="command-head">
-					<span>Contoh memanjang (1 baris):</span>
+		<div class="tabs-container">
+			<div class="tabs-header">
+				{#each tabs as tab (tab.id)}
 					<button
-						type="button"
-						class="copy-button mobile-only"
-						class:copied={copiedId === 'one-line'}
-						onclick={() => copyToClipboard(singleLineExample, 'one-line')}
+						class="tab-btn"
+						class:active={activeTab === tab.id}
+						onclick={() => (activeTab = tab.id)}
 					>
-						{#if copiedId === 'one-line'}
-							<i class="fa-solid fa-check"></i>
-						{:else}
-							Copy
-						{/if}
+						<i class={tab.icon}></i>
+						<span>{tab.label}</span>
 					</button>
-				</div>
-				<div class="code-wrapper">
-					<pre class="command-inline"><code>{singleLineExample}</code></pre>
-					<button
-						type="button"
-						class="hover-copy-btn"
-						class:copied={copiedId === 'one-line'}
-						aria-label="Salin kode"
-						onclick={() => copyToClipboard(singleLineExample, 'one-line')}
-					>
-						<i class="fa-solid fa-{copiedId === 'one-line' ? 'check' : 'clipboard'}"></i>
-					</button>
-				</div>
+				{/each}
 			</div>
-			<div class="command-panel">
-				<div class="command-head">
-					<span>Versi rapi (dengan jeda baris biar enak dibaca):</span>
-					<button
-						type="button"
-						class="copy-button mobile-only"
-						class:copied={copiedId === 'multi-line'}
-						onclick={() => copyToClipboard(multilineExample, 'multi-line')}
-					>
-						{#if copiedId === 'multi-line'}
-							<i class="fa-solid fa-check"></i>
-						{:else}
-							Copy
-						{/if}
-					</button>
-				</div>
-				<div class="code-wrapper">
-					<pre class="command-block"><code>{multilineExample}</code></pre>
-					<button
-						type="button"
-						class="hover-copy-btn"
-						class:copied={copiedId === 'multi-line'}
-						aria-label="Salin kode"
-						onclick={() => copyToClipboard(multilineExample, 'multi-line')}
-					>
-						<i class="fa-solid fa-{copiedId === 'multi-line' ? 'check' : 'clipboard'}"></i>
-					</button>
-				</div>
-			</div>
-		</div>
 
-		<section class="agent-skill-box">
-			<div class="agent-copy">
-				<p class="eyebrow">AI Agent</p>
-				<h2>Pakai skill khusus biar agent gak halu pas nambah bansos.</h2>
-				<p>
-					Kalau kamu pakai AI agent yang support Agent Skills, install skill resmi
-					<code>wauputr4/skill-bansos</code> lewat <code>npx skills</code>. Skill ini ngajarin agent
-					cara riset sumber, bikin payload valid, dan mengikuti aturan kontribusi bansos.dev.
-				</p>
+			<div class="tab-content">
+				{#if activeTab === 'form'}
+					<div class="tab-panel">
+						<div class="tab-description">
+							<h2>Isi form, langsung submit ke GitHub</h2>
+							<p>
+								Gak perlu CLI. Isi form di bawah, klik Submit, dan issue GitHub otomatis terbuka.
+								Bot akan bikin PR dari issue tersebut.
+							</p>
+						</div>
+						<div class="form-wrapper">
+							<BansosForm />
+						</div>
+					</div>
+				{:else if activeTab === 'npx'}
+					<div class="tab-panel">
+						<div class="tab-description">
+							<h2>Via npx CLI</h2>
+							<p>
+								Pakai command line? Jalankan satu baris perintah ini di terminal kamu. Nanti URL
+								issue GitHub otomatis muncul, tinggal buka dan submit. Bot langsung bikin PR-nya.
+							</p>
+						</div>
+						<div class="examples-section">
+							<span class="examples-label"><i class="fa-solid fa-lightbulb"></i> Pilih contoh:</span
+							>
+							<div class="examples-buttons">
+								{#each examples as example, i (example.id)}
+									<button
+										type="button"
+										class="example-btn"
+										onclick={() => copyToClipboard(npxExamples[i], `npx-${i}`)}
+										title={example.title}
+									>
+										<i class="fa-solid fa-arrow-right"></i>
+										{example.provider}
+									</button>
+								{/each}
+							</div>
+						</div>
+						<div class="command-block-wrapper">
+							<div class="command-head">
+								<span>npx bansosdev add</span>
+								<button
+									type="button"
+									class="copy-btn"
+									class:copied={copiedId === 'npx-0'}
+									onclick={() => copyToClipboard(npxExamples[0], 'npx-0')}
+								>
+									<i class="fa-solid fa-{copiedId === 'npx-0' ? 'check' : 'clipboard'}"></i>
+									{copiedId === 'npx-0' ? 'Tersalin' : 'Copy'}
+								</button>
+							</div>
+							<pre class="command-block"><code>{npxExamples[0]}</code></pre>
+						</div>
+						<div class="tab-note">
+							<p>
+								<i class="fa-solid fa-circle-info"></i>
+								Argumen <code>--benefits</code> dan <code>--requirements</code> dipisahkan dengan
+								<code>|</code>. Argumen <code>--tags</code> dipisahkan dengan koma. Pakai
+								<code>--mode json</code> untuk cek payload tanpa buka issue.
+							</p>
+						</div>
+					</div>
+				{:else if activeTab === 'git'}
+					<div class="tab-panel">
+						<div class="tab-description">
+							<h2>Clone repo &amp; npm run add:bansos</h2>
+							<p>
+								Download repo-nya dulu, terus jalankan script lokal buat nambah data. Setelah itu
+								kamu bisa review dulu sebelum bikin PR manual. Cocok buat yang mau lihat dulu
+								hasilnya sebelum submit.
+							</p>
+						</div>
+						<div class="examples-section">
+							<span class="examples-label"><i class="fa-solid fa-lightbulb"></i> Pilih contoh:</span
+							>
+							<div class="examples-buttons">
+								{#each examples as example, i (example.id)}
+									<button
+										type="button"
+										class="example-btn"
+										onclick={() => copyToClipboard(gitExamples[i], `git-${i}`)}
+										title={example.title}
+									>
+										<i class="fa-solid fa-arrow-right"></i>
+										{example.provider}
+									</button>
+								{/each}
+							</div>
+						</div>
+						<div class="command-block-wrapper">
+							<div class="command-head">
+								<span>git clone + npm run add:bansos</span>
+								<button
+									type="button"
+									class="copy-btn"
+									class:copied={copiedId === 'git-0'}
+									onclick={() => copyToClipboard(gitExamples[0], 'git-0')}
+								>
+									<i class="fa-solid fa-{copiedId === 'git-0' ? 'check' : 'clipboard'}"></i>
+									{copiedId === 'git-0' ? 'Tersalin' : 'Copy'}
+								</button>
+							</div>
+							<pre class="command-block"><code>{gitExamples[0]}</code></pre>
+						</div>
+						<div class="tab-note">
+							<p>
+								<i class="fa-solid fa-circle-info"></i>
+								Setelah data masuk <code>bansos.json</code>, push branch kamu dan buka PR ke
+								<code>main</code>. CI akan validasi data otomatis.
+							</p>
+						</div>
+					</div>
+				{:else if activeTab === 'ai'}
+					<div class="tab-panel">
+						<div class="tab-description">
+							<h2>AI Agent Skill</h2>
+							<p>
+								Pakai AI agent kayak Claude, ChatGPT, atau yang lain? Install skill resmi bansos.dev
+								biar agent-nya ngerti cara riset sumber dan bikin data yang valid sesuai format
+								kita.
+							</p>
+						</div>
+						<div class="command-block-wrapper">
+							<div class="command-head">
+								<span>Install skill untuk agent</span>
+								<button
+									type="button"
+									class="copy-btn"
+									class:copied={copiedId === 'ai-install'}
+									onclick={() => copyToClipboard(aiSkillInstall, 'ai-install')}
+								>
+									<i class="fa-solid fa-{copiedId === 'ai-install' ? 'check' : 'clipboard'}"></i>
+									{copiedId === 'ai-install' ? 'Tersalin' : 'Copy'}
+								</button>
+							</div>
+							<pre class="command-block"><code>{aiSkillInstall}</code></pre>
+						</div>
+						<div class="examples-section">
+							<span class="examples-label"
+								><i class="fa-solid fa-lightbulb"></i> Contoh prompt:</span
+							>
+							<div class="examples-buttons">
+								{#each examples as example, i (example.id)}
+									<button
+										type="button"
+										class="example-btn"
+										onclick={() => copyToClipboard(aiExamples[i], `ai-${i}`)}
+										title={example.title}
+									>
+										<i class="fa-solid fa-arrow-right"></i>
+										{example.provider}
+									</button>
+								{/each}
+							</div>
+						</div>
+						<div class="command-block-wrapper">
+							<div class="command-head">
+								<span>Contoh prompt</span>
+								<button
+									type="button"
+									class="copy-btn"
+									class:copied={copiedId === 'ai-0'}
+									onclick={() => copyToClipboard(aiExamples[0], 'ai-0')}
+								>
+									<i class="fa-solid fa-{copiedId === 'ai-0' ? 'check' : 'clipboard'}"></i>
+									{copiedId === 'ai-0' ? 'Tersalin' : 'Copy'}
+								</button>
+							</div>
+							<pre class="command-block"><code>{aiExamples[0]}</code></pre>
+						</div>
+						<a
+							href="https://www.skills.sh/wauputr4/skill-bansos"
+							target="_blank"
+							rel="noopener noreferrer"
+							class="skill-link"
+						>
+							Lihat skill di skills.sh
+							<i class="fa-solid fa-arrow-up-right-from-square"></i>
+						</a>
+					</div>
+				{/if}
 			</div>
-			<div class="command-panel">
-				<div class="command-head">
-					<span>Install skill untuk agent:</span>
-					<button
-						type="button"
-						class="copy-button mobile-only"
-						class:copied={copiedId === 'agent-install'}
-						onclick={() => copyToClipboard(agentSkillInstallCommand, 'agent-install')}
-					>
-						{#if copiedId === 'agent-install'}
-							<i class="fa-solid fa-check"></i>
-						{:else}
-							Copy
-						{/if}
-					</button>
-				</div>
-				<div class="code-wrapper">
-					<pre class="command-inline"><code>{agentSkillInstallCommand}</code></pre>
-					<button
-						type="button"
-						class="hover-copy-btn"
-						class:copied={copiedId === 'agent-install'}
-						aria-label="Salin kode"
-						onclick={() => copyToClipboard(agentSkillInstallCommand, 'agent-install')}
-					>
-						<i class="fa-solid fa-{copiedId === 'agent-install' ? 'check' : 'clipboard'}"></i>
-					</button>
-				</div>
-			</div>
-			<div class="command-panel">
-				<div class="command-head">
-					<span>Contoh prompt setelah skill terpasang:</span>
-					<button
-						type="button"
-						class="copy-button mobile-only"
-						class:copied={copiedId === 'agent-prompt'}
-						onclick={() => copyToClipboard(agentPromptExample, 'agent-prompt')}
-					>
-						{#if copiedId === 'agent-prompt'}
-							<i class="fa-solid fa-check"></i>
-						{:else}
-							Copy
-						{/if}
-					</button>
-				</div>
-				<div class="code-wrapper">
-					<pre class="command-block"><code>{agentPromptExample}</code></pre>
-					<button
-						type="button"
-						class="hover-copy-btn"
-						class:copied={copiedId === 'agent-prompt'}
-						aria-label="Salin kode"
-						onclick={() => copyToClipboard(agentPromptExample, 'agent-prompt')}
-					>
-						<i class="fa-solid fa-{copiedId === 'agent-prompt' ? 'check' : 'clipboard'}"></i>
-					</button>
-				</div>
-			</div>
-			<a
-				href="https://www.skills.sh/wauputr4/skill-bansos"
-				target="_blank"
-				rel="noopener noreferrer"
-				class="skill-link"
-			>
-				Lihat skill di skills.sh
-			</a>
-		</section>
-
-		<div class="actions">
-			<a
-				href="https://github.com/wauputr4/bansos"
-				target="_blank"
-				rel="noopener noreferrer"
-				class="btn-primary"
-			>
-				Buka GitHub
-			</a>
 		</div>
 
 		{#if copiedNotice}
@@ -238,7 +354,8 @@
 
 		<section class="contributors-section">
 			<h2 class="section-title">
-				<i class="fa-solid fa-code-commit"></i> Kontributor Proyek
+				<i class="fa-solid fa-code-commit"></i>
+				Kontributor Proyek
 			</h2>
 			<p class="section-note">
 				Kontributor proyek adalah akun GitHub yang benar-benar menambah atau mengubah kode atau data
@@ -272,7 +389,8 @@
 
 		<section class="contributors-section">
 			<h2 class="section-title">
-				<i class="fa-solid fa-users"></i> Kontributor Terdaftar
+				<i class="fa-solid fa-users"></i>
+				Kontributor Terdaftar
 			</h2>
 			<p class="section-note">
 				Kontributor terdaftar adalah orang yang berkontribusi menambahkan atau meng-update data
@@ -327,16 +445,6 @@
 		color: var(--text-secondary);
 	}
 
-	.command-box {
-		display: flex;
-		flex-direction: column;
-		gap: 0.75rem;
-		border: 1px solid var(--border-color);
-		border-radius: 0.75rem;
-		background: color-mix(in srgb, var(--text-primary) 4%, transparent);
-		padding: 1rem;
-	}
-
 	.repo-status-card {
 		display: flex;
 		flex-direction: column;
@@ -348,168 +456,232 @@
 		padding: 1rem;
 	}
 
-	.agent-skill-box {
+	.tabs-container {
 		display: flex;
 		flex-direction: column;
-		gap: 0.85rem;
-		border: 1px solid color-mix(in srgb, var(--color-accent) 42%, var(--border-color));
-		border-radius: 0.75rem;
-		background:
-			linear-gradient(135deg, rgba(53, 194, 124, 0.12), rgba(255, 255, 255, 0.03)),
-			color-mix(in srgb, var(--text-primary) 4%, transparent);
-		padding: 1rem;
-	}
-
-	.agent-copy {
-		display: flex;
-		flex-direction: column;
-		gap: 0.45rem;
-	}
-
-	.agent-copy h2 {
-		margin: 0;
-		color: var(--text-primary);
-		font-size: clamp(1.25rem, 3vw, 1.75rem);
-		line-height: 1.15;
-	}
-
-	.agent-copy p {
-		margin: 0;
-	}
-
-	.agent-copy code {
-		color: var(--text-primary);
-		font-weight: 800;
-	}
-
-	.skill-link {
-		width: fit-content;
-		color: var(--color-accent);
-		font-size: 0.9rem;
-		font-weight: 800;
-		text-decoration: none;
-	}
-
-	.skill-link:hover {
-		text-decoration: underline;
-	}
-
-	.command-block {
-		margin: 0;
-		background: color-mix(in srgb, var(--text-primary) 5%, transparent);
 		border: 1px solid var(--border-color);
 		border-radius: 0.75rem;
-		padding: 0.9rem 1rem;
+		overflow: hidden;
+	}
+
+	.tabs-header {
+		display: flex;
+		border-bottom: 1px solid var(--border-color);
+		background: color-mix(in srgb, var(--text-primary) 4%, transparent);
 		overflow-x: auto;
 	}
 
-	.command-panel {
-		margin: 0;
+	.tab-btn {
+		display: flex;
+		align-items: center;
+		gap: 0.4rem;
+		padding: 0.85rem 1.25rem;
+		background: transparent;
+		border: none;
+		border-bottom: 2px solid transparent;
+		color: var(--text-secondary);
+		font-family: inherit;
+		font-size: 0.9rem;
+		font-weight: 700;
+		cursor: pointer;
+		transition: all 0.2s;
+		white-space: nowrap;
+	}
+
+	.tab-btn:hover {
+		color: var(--text-primary);
+		background: color-mix(in srgb, var(--text-primary) 4%, transparent);
+	}
+
+	.tab-btn.active {
+		color: var(--color-accent);
+		border-bottom-color: var(--color-accent);
+		background: color-mix(in srgb, var(--color-accent) 6%, transparent);
+	}
+
+	.tab-content {
+		padding: 1.5rem;
+	}
+
+	.tab-panel {
 		display: flex;
 		flex-direction: column;
-		gap: 0.6rem;
+		gap: 1.25rem;
+	}
+
+	.tab-description {
+		display: flex;
+		flex-direction: column;
+		gap: 0.4rem;
+	}
+
+	.tab-description h2 {
+		margin: 0;
+		color: var(--text-primary);
+		font-size: 1.25rem;
+		font-weight: 800;
+	}
+
+	.tab-description p {
+		margin: 0;
+	}
+
+	.form-wrapper {
+		border: 1px solid var(--border-color);
+		border-radius: 0.75rem;
+		padding: 1.25rem;
+		background: color-mix(in srgb, var(--text-primary) 3%, transparent);
+	}
+
+	.examples-section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		padding: 0.75rem 1rem;
+		border: 1px solid color-mix(in srgb, var(--color-accent) 25%, var(--border-color));
+		border-radius: 0.6rem;
+		background: color-mix(in srgb, var(--color-accent) 5%, transparent);
+	}
+
+	.examples-label {
+		color: var(--text-secondary);
+		font-size: 0.8rem;
+		font-weight: 700;
+		display: flex;
+		align-items: center;
+		gap: 0.35rem;
+	}
+
+	.examples-label i {
+		color: var(--color-accent);
+	}
+
+	.examples-buttons {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.4rem;
+	}
+
+	.example-btn {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.3rem;
+		background: transparent;
+		border: 1px solid var(--border-color);
+		border-radius: 0.4rem;
+		color: var(--text-secondary);
+		font-family: inherit;
+		font-size: 0.75rem;
+		font-weight: 650;
+		padding: 0.3rem 0.6rem;
+		cursor: pointer;
+		transition: all 0.2s;
+	}
+
+	.example-btn:hover {
+		border-color: var(--color-accent);
+		color: var(--color-accent);
+		background: color-mix(in srgb, var(--color-accent) 8%, transparent);
+	}
+
+	.example-btn i {
+		font-size: 0.6rem;
+	}
+
+	.command-block-wrapper {
+		display: flex;
+		flex-direction: column;
+		border: 1px solid var(--border-color);
+		border-radius: 0.75rem;
+		background: color-mix(in srgb, var(--text-primary) 4%, transparent);
+		overflow: hidden;
 	}
 
 	.command-head {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		gap: 0.8rem;
+		padding: 0.6rem 1rem;
+		background: color-mix(in srgb, var(--text-primary) 6%, transparent);
+		border-bottom: 1px solid var(--border-color);
 		color: var(--text-secondary);
-		font-size: 0.85rem;
-	}
-
-	.copy-button {
-		background: rgba(255, 255, 255, 0.08);
-		border: 1px solid var(--border-color);
-		color: var(--text-primary);
-		border-radius: 0.6rem;
-		font-size: 0.76rem;
-		padding: 0.38rem 0.75rem;
+		font-size: 0.8rem;
 		font-weight: 700;
-		cursor: pointer;
-		transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 	}
 
-	.copy-button:hover {
-		background: var(--bg-secondary);
-		border-color: var(--color-accent);
-		color: var(--color-accent);
-		transform: scale(1.05);
-		box-shadow: 0 4px 12px var(--color-accent-glow);
-	}
-
-	.mobile-only {
-		display: none;
-	}
-
-	.code-wrapper {
-		position: relative;
-	}
-
-	.hover-copy-btn {
-		position: absolute;
-		top: 0.5rem;
-		right: 0.5rem;
-		background: color-mix(in srgb, var(--text-primary) 5%, var(--bg-primary));
-		border: 1px solid var(--border-color);
-		color: var(--text-secondary);
-		border-radius: 0.4rem;
-		width: 2rem;
-		height: 2rem;
+	.copy-btn {
 		display: flex;
 		align-items: center;
-		justify-content: center;
+		gap: 0.3rem;
+		background: transparent;
+		border: 1px solid var(--border-color);
+		border-radius: 0.4rem;
+		color: var(--text-secondary);
+		font-family: inherit;
+		font-size: 0.75rem;
+		font-weight: 700;
+		padding: 0.3rem 0.6rem;
 		cursor: pointer;
-		opacity: 0;
-		transition: all 0.2s ease;
+		transition: all 0.2s;
 	}
 
-	.code-wrapper:hover .hover-copy-btn,
-	.hover-copy-btn:focus,
-	.hover-copy-btn.copied {
-		opacity: 1;
-	}
-
-	.hover-copy-btn:hover {
-		background: var(--bg-secondary);
-		color: var(--color-accent);
+	.copy-btn:hover {
+		background: rgba(255, 255, 255, 0.08);
 		border-color: var(--color-accent);
-		transform: scale(1.1);
-		box-shadow: 0 4px 12px var(--color-accent-glow);
+		color: var(--color-accent);
 	}
 
-	.hover-copy-btn.copied,
-	.copy-button.copied {
+	.copy-btn.copied {
 		color: #10b981;
 		border-color: #10b981;
 	}
 
-	.command-block,
-	.command-inline {
-		background: color-mix(in srgb, var(--text-primary) 5%, transparent);
-		border: 1px solid var(--border-color);
-		border-radius: 0.75rem;
+	.command-block {
+		margin: 0;
 		padding: 0.9rem 1rem;
 		overflow-x: auto;
-		margin: 0;
 	}
 
-	.command-inline code,
 	.command-block code {
 		display: block;
 		color: var(--text-primary);
 		font-size: 0.82rem;
 		line-height: 1.6;
-	}
-
-	.command-inline code {
-		white-space: nowrap;
-	}
-
-	.command-block {
 		white-space: pre-wrap;
 		word-break: break-word;
+	}
+
+	.tab-note {
+		background: color-mix(in srgb, var(--color-accent) 8%, transparent);
+		border: 1px solid color-mix(in srgb, var(--color-accent) 20%, var(--border-color));
+		border-radius: 0.5rem;
+		padding: 0.75rem 1rem;
+	}
+
+	.tab-note p {
+		margin: 0;
+		color: var(--text-secondary);
+		font-size: 0.85rem;
+	}
+
+	.tab-note code {
+		color: var(--color-accent);
+		font-weight: 700;
+	}
+
+	.skill-link {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.4rem;
+		color: var(--color-accent);
+		font-size: 0.9rem;
+		font-weight: 750;
+		text-decoration: none;
+		align-self: flex-start;
+	}
+
+	.skill-link:hover {
+		text-decoration: underline;
 	}
 
 	.toast-notice {
@@ -571,13 +743,6 @@
 			transform: translate(-50%, 0);
 			opacity: 1;
 		}
-	}
-
-	.actions {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.75rem;
-		margin-top: 0.5rem;
 	}
 
 	.contributors-section {
@@ -733,14 +898,11 @@
 	}
 
 	@media (max-width: 48rem) {
-		.mobile-only {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			min-width: 4rem;
-		}
-		.hover-copy-btn {
+		.tab-btn span {
 			display: none;
+		}
+		.tab-btn {
+			padding: 0.85rem;
 		}
 		.author-text {
 			display: none;
