@@ -1,0 +1,20 @@
+{
+	"id": "free-5-credit-for-new-opencode-go-users",
+	"title": "Free $5 Credit for New OpenCode Go Users",
+	"provider": "Opencode",
+	"description": "Subscribe OpenCode Go $5 untuk bulan pertama untuk mendapatkan tambahan $5 usage credit setelah berlangganan.",
+	"benefits": [
+		"Free $5 Credit",
+		"Akses ke model-model populer seperti Grok 4.5, GLM-5.2, dan 14+ lainnya."
+	],
+	"validity": {
+		"type": "uncertain",
+		"description": ""
+	},
+	"requirements": [],
+	"ctaLink": "https://opencode.ai/go?ref=SM54C9EKXF",
+	"tags": ["AI", "Developer Tools", "Coding", "Discount", "Referral"],
+	"status": "active",
+	"featured": false,
+	"publishedAt": "2026-07-25"
+}

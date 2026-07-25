@@ -1,6 +1,6 @@
 {
 	"generatedAt": "2026-07-23",
-	"total": 77,
+	"total": 78,
 	"items": [
 		{
 			"id": "adobe-creative-cloud-pro-trial",
@@ -231,6 +231,16 @@
 			"featured": false,
 			"publishedAt": "2026-06-23",
 			"contributorSlug": "risal"
+		},
+		{
+			"id": "free-5-credit-for-new-opencode-go-users",
+			"title": "Free $5 Credit for New OpenCode Go Users",
+			"provider": "Opencode",
+			"status": "active",
+			"tags": ["AI", "Developer Tools", "Coding", "Discount", "Referral"],
+			"featured": false,
+			"publishedAt": "2026-07-25",
+			"contributorSlug": ""
 		},
 		{
 			"id": "freebuff-ai-builder",
