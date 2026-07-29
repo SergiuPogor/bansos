@@ -1,6 +1,6 @@
 {
 	"generatedAt": "2026-07-23",
-	"total": 77,
+	"total": 78,
 	"items": [
 		{
 			"id": "adobe-creative-cloud-pro-trial",
@@ -319,6 +319,16 @@
 			"featured": true,
 			"publishedAt": "2026-06-13",
 			"contributorSlug": "devers"
+		},
+		{
+			"id": "gorouter-free-75-ai-credit",
+			"title": "GoRouter Free $75 AI Credit",
+			"provider": "GoRouter",
+			"status": "active",
+			"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools"],
+			"featured": false,
+			"publishedAt": "2026-07-29",
+			"contributorSlug": "rafly0078"
 		},
 		{
 			"id": "gumloop-free-credits",
