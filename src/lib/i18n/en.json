@@ -156,7 +156,7 @@
 		"warningTitle": "⛔ Strict Prohibition: STRICTLY FORBIDDEN",
 		"warningText": "DO NOT submit misleading, fake, or unclaimable bansos information. STRICTLY FORBIDDEN from including steps that are abusive, illegal, or violate third-party Terms of Service (ToS). Violators will be permanently removed from bansos.dev without notice.",
 		"referralTitle": "Referral Link Policy (Gentleman's Agreement)",
-		"referralText": "You are free to use your personal referral link when submitting new bansos data. However, please do NOT overwrite or replace existing referral links from other contributors. Let's respect the first contributor who shared that info!",
+		"referralText": "You may use your personal referral link when submitting new bansos data. Do not replace another contributor's active referral. Referral listings remain active for one month from publication, then maintainers mark them expired before accepting a replacement referral.",
 		"repoEyebrow": "Open Source Repo",
 		"tabs": {
 			"form": "Form",
@@ -226,7 +226,7 @@
 		"section3Desc": "Before claiming a program, double-check the details on the provider's official page. The decision to register, submit data, enter payment cards, or use third-party services is entirely the user's responsibility.",
 		"section4Title": "4. Community contribution & Referral Link Rules",
 		"section4P1": "Contributions must include correct information, official sources, and must not be misleading. Contributors are strictly prohibited from sending spam, malicious links, or fake programs.",
-		"section4P2": "Referral Link Policy: Anyone is allowed to include their own referral link when submitting a new bansos program. However, it is strictly forbidden to overwrite or replace referral links belonging to other contributors that were already registered, to maintain sportsmanship and respect the first contributor of the program (gentleman's agreement).",
+		"section4P2": "Referral Link Policy: Anyone may include their own referral link when submitting a new bansos program. Active referrals must not be overwritten or replaced. A referral listing remains active for one month from its publication date; after that, maintainers mark the existing listing expired before accepting a replacement referral. Provider promotion validity remains separate from this referral display period.",
 		"section5Title": "5. Prohibition: Abuse, ToS Violation & Illegal Activity",
 		"section5Intro": "STRICTLY PROHIBITED from using bansos information on this platform for:",
 		"liAbuse": "Abuse purposes or exploiting provider policy/security loopholes.",

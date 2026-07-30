@@ -4,7 +4,7 @@
 
 Subscribe ke opencode go ai untuk mendapatkan free $5 melalui akun kamu
 
-> **Status:** Aktif
+> **Status:** Kadaluwarsa
 
 ## Keuntungan
 
