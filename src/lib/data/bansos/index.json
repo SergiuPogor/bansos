@@ -331,6 +331,16 @@
 			"contributorSlug": "devers"
 		},
 		{
+			"id": "gorouter-free-75-ai-credit",
+			"title": "GoRouter Free $75 AI Credit",
+			"provider": "GoRouter",
+			"status": "active",
+			"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools"],
+			"featured": false,
+			"publishedAt": "2026-07-29",
+			"contributorSlug": "rafly0078"
+		},
+		{
 			"id": "gumloop-free-credits",
 			"title": "Gratis 6,6 Ribu Kredit Agen AI di Gumloop (Tersedia Model Populer)",
 			"provider": "Gumloop",
