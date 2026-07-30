@@ -1,5 +1,5 @@
 # bansos.dev — Dataset Lengkap
-> Diperbarui: 2026-07-22 | Total: 73 entri (62 aktif, 11 expired)
+> Diperbarui: 2026-07-30 | Total: 78 entri (65 aktif, 13 expired)
 
 ---
 
@@ -142,37 +142,6 @@ Tersedia 10 model LLM yang bisa digunakan melalui API key.
 - **Berlaku:** uncertain (Berlaku selama Free Plan masih tersedia. Token Free Plan mengikuti kebijakan masa aktif yang ditentukan AI Hub.)
 
 🔗 **Link Detail:** https://bansos.dev/list/ai-hub-free-plan/
-
----
-
-### AI Livscene — 14 Model AI Premium Gratis dengan Quota 5.1
-
-- **ID:** `ai-livscene-free-models`
-- **Provider:** AI Livscene
-- **Website Provider:** https://ai.livscene.com
-- **Kategori:** AI Credits, API, Free Tier, AI Tools, No Credit Card
-- **Status:** active
-- **🔥 FEATURED**
-
-**Deskripsi:** Akses 14 model AI premium gratis dengan quota 5.1 di AI Livscene. Daftar pakai Discord atau GitHub, langsung generate tanpa ribet!
-
-**Benefit:**
-- Akses gratis ke 14 model AI premium: Claude Opus 4.6/4.7/4.8, Claude Sonnet 4.6, DeepSeek V4 Pro, Gemini 3.1 Pro, Gemini 3.5 Flash, GLM 5.2, GPT 5.4 Compact, GPT 5.5, Mimo v2.5, Mimo v2.5 Pro, Step 3.7 Flash, Step Router V1
-- Quota 5.1 untuk mencoba semua model
-- Daftar cepat via Discord atau GitHub
-- Generate dan langsung coba tanpa setup rumit
-
-**Cara Klaim:**
-1. Buka ai.livscene.com
-2. Daftar akun via Discord atau GitHub
-3. Generate dan langsung coba model yang tersedia
-
-- **CTA Link:** https://ai.livscene.com/sign-up?aff=m3Vt
-- **Sumber:** https://ai.livscene.com
-- **Tips:** Hasil referral dibagikan gratis di Discord bansos.dev — gabung dan cek #berbagi-api. Quota 5.1 cukup lega buat eksplorasi berbagai model!
-- **Berlaku:** uncertain (Quota dan akses free model mengikuti kebijakan AI Livscene)
-
-🔗 **Link Detail:** https://bansos.dev/list/ai-livscene-free-models/
 
 ---
 
@@ -567,6 +536,32 @@ Tersedia 10 model LLM yang bisa digunakan melalui API key.
 - **Berlaku:** forever
 
 🔗 **Link Detail:** https://bansos.dev/list/diskon-free-hosting/
+
+---
+
+### Free $5 Credit for New OpenCode Go Users
+
+- **ID:** `free-5-credit-for-new-opencode-go-users`
+- **Provider:** Opencode
+- **Kategori:** AI, Developer Tools, Coding, Discount, Referral
+- **Status:** active
+
+**Deskripsi:** Pengguna baru yang berlangganan OpenCode Go melalui referral ini dan kontributor referral masing-masing memperoleh $5 usage credit.
+
+**Benefit:**
+- Pengguna baru dan kontributor referral masing-masing memperoleh $5 usage credit
+- OpenCode Go mulai $5 untuk bulan pertama, lalu $10 per bulan
+- Akses ke model-model populer seperti Grok 4.5, GLM-5.2, dan 14+ lainnya.
+
+**Cara Klaim:**
+1. Pengguna baru OpenCode Go
+2. Berlangganan OpenCode Go melalui link referral ini
+
+- **CTA Link:** https://opencode.ai/go?ref=SM54C9EKXF
+- **Sumber:** https://opencode.ai/go?ref=SM54C9EKXF
+- **Berlaku:** fixed — 2026-08-25 (Listing referral berlaku satu bulan sejak publikasi.)
+
+🔗 **Link Detail:** https://bansos.dev/list/free-5-credit-for-new-opencode-go-users/
 
 ---
 
@@ -1058,6 +1053,35 @@ Tersedia 10 model LLM yang bisa digunakan melalui API key.
 
 ---
 
+### ModelSet Free $1 AI API Credit
+
+- **ID:** `modelset-free-credit`
+- **Provider:** ModelSet
+- **Kategori:** AI API, Claude, LLM, Free Tier
+- **Status:** active
+
+**Deskripsi:** AI API gateway dengan format OpenAI, Claude, dan Gemini-compatible. Pengguna baru mendapat kredit awal $1 untuk mencoba berbagai model Claude tanpa subscription.
+
+**Benefit:**
+- Kredit awal $1 untuk pengguna baru
+- Tidak memerlukan subscription
+- Akses berbagai model Claude melalui satu API
+- Mendukung endpoint OpenAI dan Anthropic-compatible
+
+**Cara Klaim:**
+1. Daftar akun baru menggunakan GitHub
+2. Login ke dashboard
+3. Buat API key dan gunakan layanan tanpa pendaftaran akun ganda
+
+- **CTA Link:** https://modelset.top/register?aff=JGAt
+- **Sumber:** https://modelset.top/
+- **Tips:** Gunakan kredit seperlunya. ModelSet dapat menutup akun yang terindikasi melakukan pendaftaran berulang atau penyalahgunaan.
+- **Berlaku:** uncertain (Berlaku selama program kredit pengguna baru masih tersedia)
+
+🔗 **Link Detail:** https://bansos.dev/list/modelset-free-credit/
+
+---
+
 ### Kredit MongoDB Atlas untuk Startup
 
 - **ID:** `mongodb-startups`
@@ -1217,28 +1241,6 @@ Tersedia 10 model LLM yang bisa digunakan melalui API key.
 
 ---
 
-### Free $5 Credit in Opencode GO - Referral links
-
-- **ID:** `opencode-go-free-5-credit`
-- **Provider:** Opencode Go
-- **Kategori:** AI Credits, AI, API, Promo
-- **Status:** active
-
-**Deskripsi:** Subscribe ke opencode go ai untuk mendapatkan free $5 melalui akun kamu
-
-**Benefit:**
-- Free $5 Credit
-
-**Cara Klaim:**
-1. Subscribe Opencode AI
-
-- **CTA Link:** https://opencode.ai/go?ref=YCFKG306YB
-- **Berlaku:** forever
-
-🔗 **Link Detail:** https://bansos.dev/list/opencode-go-free-5-credit/
-
----
-
 ### Akses Gratis Model AI DeepSeek-V4-Flash di OpenModel
 
 - **ID:** `openmodel-deepseek-v4-flash-free`
@@ -1292,6 +1294,35 @@ Berlaku sampai tanggal 28 Juni 2026
 - **Berlaku:** fixed — 2026-06-28
 
 🔗 **Link Detail:** https://bansos.dev/list/openmodel-deepseek-v4-flash-free-access/
+
+---
+
+### Promo Domain .MY.ID, .BIZ.ID, dan .WEB.ID Rp3.500
+
+- **ID:** `promo-domain-sitequ`
+- **Provider:** SITEQU Digital Indonesia
+- **Kategori:** Domain, Diskon
+- **Status:** active
+
+**Deskripsi:** Promo pendaftaran domain Indonesia .MY.ID, .BIZ.ID, dan .WEB.ID seharga Rp3.500 selama periode Gajian Sale SITEQU Digital Indonesia.
+
+**Benefit:**
+- Pendaftaran domain .MY.ID seharga Rp3.500
+- Pendaftaran domain .BIZ.ID seharga Rp3.500
+- Pendaftaran domain .WEB.ID seharga Rp3.500
+- Harga promo diterapkan otomatis tanpa kode voucher
+
+**Cara Klaim:**
+1. Pilih domain .MY.ID, .BIZ.ID, atau .WEB.ID yang masih tersedia
+2. Lakukan pendaftaran melalui situs resmi SITEQU selama periode promo
+3. Ikuti syarat pendaftaran domain Indonesia dari provider
+
+- **CTA Link:** https://domain.sitequ.id/
+- **Sumber:** https://domain.sitequ.id/
+- **Tips:** Promo berlaku untuk pendaftaran baru. Harga perpanjangan dan transfer tetap mengikuti tarif normal yang tampil saat checkout.
+- **Berlaku:** fixed — 2026-07-31 (Berlaku sampai 31 Juli 2026 atau selama kuota promo tersedia)
+
+🔗 **Link Detail:** https://bansos.dev/list/promo-domain-sitequ/
 
 ---
 
@@ -1469,28 +1500,60 @@ Berlaku sampai tanggal 28 Juni 2026
 
 ---
 
-### TokenGO API Inference Free $10 (5M Token)
+### TokenFaucet Daily Free LLM API Tokens
+
+- **ID:** `tokenfaucet-daily-free-tokens`
+- **Provider:** TokenFaucet
+- **Kategori:** AI API, LLM, Free Tier
+- **Status:** active
+
+**Deskripsi:** AI API gateway dengan token gratis harian, endpoint kompatibel OpenAI dan Anthropic, serta pilihan model gratis maupun berbayar.
+
+**Benefit:**
+- Klaim gratis 500.000 hingga 1.500.000 token per hari
+- Bonus referral 1.024.000 token per pengguna yang mendaftar
+- Endpoint kompatibel OpenAI dan Anthropic
+- Tersedia beberapa model gratis dan berbayar
+
+**Cara Klaim:**
+1. Daftar atau login akun TokenFaucet
+2. Klaim token dari pool harian
+3. Buat API key dan gunakan endpoint sesuai dokumentasi
+
+- **CTA Link:** https://freetokenfaucet.com/?ref=27BX468Y
+- **Sumber:** https://freetokenfaucet.com/
+- **Tips:** Prioritaskan model berlabel Free dan jangan membuat akun ganda untuk mengulang klaim.
+- **Berlaku:** uncertain (Selama pool dan program token gratis harian tersedia)
+
+🔗 **Link Detail:** https://bansos.dev/list/tokenfaucet-daily-free-tokens/
+
+---
+
+### TokenGO API Inference Free $5 Credits
 
 - **ID:** `tokengo-inference-api`
 - **Provider:** TokenGO
 - **Kategori:** AI API, LLM, Free Tier
 - **Status:** active
 
-**Deskripsi:** API inference self-operated buat open-weight LLM (DeepSeek V4, GLM 5.2, Qwen3.5) dan model video. OpenAI-compatible, tinggal ganti base URL. Daftar langsung dapat kredit gratis $10 setara 5M token — cukup buat nyoba semua model tanpa kartu kredit.
+**Deskripsi:** API inference self-operated dengan 10+ model AI seperti DeepSeek, GLM, Qwen, Kimi, dan MiniMax. OpenAI-compatible, tinggal ganti base URL. Pengguna baru mendapat kredit testing gratis $5 tanpa kartu kredit.
 
 **Benefit:**
-- Gratis $10 kredit setara 5M token langsung setelah daftar dengan link refferal
-- OpenAI-compatible
-- Model open-weight: DeepSeek V4, GLM 5.2, Qwen3.5, konteks sampai 203K
-- Pay-as-you-go mulai $0.10/Juta token input
+- Kredit testing gratis $5 saat mendaftar tanpa kartu kredit
+- Satu API key untuk 10+ model AI
+- API kompatibel dengan format OpenAI
+- Konteks hingga 1 juta token pada model tertentu
+- DeepSeek V4 Flash mulai $0.10 per 1 juta token input
 
 **Cara Klaim:**
 1. Daftar akun baru
-2. Login dan dapatkan bonus 10$
-3. Buat API Key per key, pakai base URL OpenAI-compatible di app kamu
+2. Login untuk mendapatkan kredit testing gratis $5
+3. Buat API key dan gunakan base URL OpenAI-compatible https://api.thorbase.com/v1 di aplikasi
 
 - **CTA Link:** https://dashboard.tokengo.com/sign-up?aff=7ZOW&utm_source=bansos.dev&utm_medium=referral&utm_campaign=bansos
-- **Berlaku:** uncertain (Kredit gratis $10 berlaku sesuai ketentuan TokenGO; harga dan model mengikuti halaman pricing resmi)
+- **Sumber:** https://tokengo.com
+- **Tips:** Gunakan DeepSeek V4 Flash untuk testing berbiaya rendah. Harga dan ketersediaan model dapat berubah.
+- **Berlaku:** uncertain (Kredit testing gratis $5 berlaku selama program tersedia; harga dan model mengikuti halaman resmi TokenGO)
 
 🔗 **Link Detail:** https://bansos.dev/list/tokengo-inference-api/
 
@@ -1575,6 +1638,34 @@ Berlaku sampai tanggal 28 Juni 2026
 - **Berlaku:** uncertain (Selama kuota tersedia)
 
 🔗 **Link Detail:** https://bansos.dev/list/v0-vercel-ai-credits-up-to-200/
+
+---
+
+### VSLLM Daily Check-in Rewards
+
+- **ID:** `vsllm-daily-checkin-rewards`
+- **Provider:** VSLLM
+- **Kategori:** AI, AI API, LLM, Daily Reward
+- **Status:** active
+
+**Deskripsi:** AI API gateway kompatibel OpenAI yang menyediakan reward melalui daily check-in. Jenis dan nilai reward dapat berubah sesuai program di dashboard VSLLM.
+
+**Benefit:**
+- Daily check-in untuk memperoleh reward akun
+- API gateway kompatibel OpenAI
+- Akses berbagai model AI melalui satu endpoint
+
+**Cara Klaim:**
+1. Daftar atau login ke VSLLM
+2. Buka dashboard dan lakukan daily check-in
+3. Gunakan reward sesuai ketentuan provider
+
+- **CTA Link:** https://vsllm.com/register?aff=5xdk
+- **Sumber:** https://vsllm.com/
+- **Tips:** Periksa jenis dan masa berlaku reward di dashboard sebelum menggunakannya; subscription gratis dan lucky card belum dapat diverifikasi dari halaman publik.
+- **Berlaku:** uncertain (Selama fitur daily check-in masih diaktifkan oleh VSLLM)
+
+🔗 **Link Detail:** https://bansos.dev/list/vsllm-daily-checkin-rewards/
 
 ---
 
@@ -1801,6 +1892,36 @@ Berlaku sampai tanggal 28 Juni 2026
 - **Berlaku:** uncertain
 
 🔗 **Link Detail:** https://bansos.dev/list/agentrouter-free-250-ai-credit/
+
+---
+
+### AI Livscene — 14 Model AI Premium Gratis dengan Quota 5.1
+
+- **ID:** `ai-livscene-free-models`
+- **Provider:** AI Livscene
+- **Website Provider:** https://ai.livscene.com
+- **Kategori:** AI Credits, API, Free Tier, AI Tools, No Credit Card
+- **Status:** expired
+
+**Deskripsi:** Akses 14 model AI premium gratis dengan quota 5.1 di AI Livscene. Daftar pakai Discord atau GitHub, langsung generate tanpa ribet!
+
+**Benefit:**
+- Akses gratis ke 14 model AI premium: Claude Opus 4.6/4.7/4.8, Claude Sonnet 4.6, DeepSeek V4 Pro, Gemini 3.1 Pro, Gemini 3.5 Flash, GLM 5.2, GPT 5.4 Compact, GPT 5.5, Mimo v2.5, Mimo v2.5 Pro, Step 3.7 Flash, Step Router V1
+- Quota 5.1 untuk mencoba semua model
+- Daftar cepat via Discord atau GitHub
+- Generate dan langsung coba tanpa setup rumit
+
+**Cara Klaim:**
+1. Buka ai.livscene.com
+2. Daftar akun via Discord atau GitHub
+3. Generate dan langsung coba model yang tersedia
+
+- **CTA Link:** https://ai.livscene.com/sign-up?aff=m3Vt
+- **Sumber:** https://ai.livscene.com
+- **Tips:** Hasil referral dibagikan gratis di Discord bansos.dev — gabung dan cek #berbagi-api. Quota 5.1 cukup lega buat eksplorasi berbagai model!
+- **Berlaku:** uncertain (Quota dan akses free model mengikuti kebijakan AI Livscene)
+
+🔗 **Link Detail:** https://bansos.dev/list/ai-livscene-free-models/
 
 ---
 
@@ -2045,6 +2166,28 @@ Berlaku sampai tanggal 28 Juni 2026
 - **Berlaku:** uncertain (Sudah tidak aktif (promo code tidak bisa digunakan lagi))
 
 🔗 **Link Detail:** https://bansos.dev/list/namecom-domain-app/
+
+---
+
+### Free $5 Credit in Opencode GO - Referral links
+
+- **ID:** `opencode-go-free-5-credit`
+- **Provider:** Opencode Go
+- **Kategori:** AI Credits, AI, API, Promo
+- **Status:** expired
+
+**Deskripsi:** Subscribe ke opencode go ai untuk mendapatkan free $5 melalui akun kamu
+
+**Benefit:**
+- Free $5 Credit
+
+**Cara Klaim:**
+1. Subscribe Opencode AI
+
+- **CTA Link:** https://opencode.ai/go?ref=YCFKG306YB
+- **Berlaku:** forever
+
+🔗 **Link Detail:** https://bansos.dev/list/opencode-go-free-5-credit/
 
 ---
 

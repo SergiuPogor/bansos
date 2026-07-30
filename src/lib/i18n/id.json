@@ -156,7 +156,7 @@
 		"warningTitle": "⛔ Larangan Keras: DILARANG KERAS",
 		"warningText": "JANGAN submit informasi bansos yang menyesatkan, palsu, atau tidak bisa diklaim. DILARANG KERAS menyertakan langkah-langkah yang bersifat abuse, ilegal, atau melanggar ketentuan layanan (ToS) pihak lain. Setiap pelanggaran akan ditindak tegas, kontributor akan dikeluarkan secara permanen dari bansos.dev tanpa pemberitahuan.",
 		"referralTitle": "Kebijakan Link Referral (Gentleman's Agreement)",
-		"referralText": "Kamu dibebaskan memakai link referral pribadimu saat mengirim data bansos baru. Namun, tolong jangan menimpa atau mengganti link referral milik kontributor lain yang sudah terdaftar. Mari kita hargai kontributor pertama yang membagikan info tersebut!",
+		"referralText": "Kamu dibebaskan memakai link referral pribadimu saat mengirim data bansos baru. Jangan menimpa referral aktif milik kontributor lain. Listing referral berlaku satu bulan sejak publikasi, lalu maintainer menandainya expired sebelum referral pengganti dapat diterima.",
 		"repoEyebrow": "Open Source Repo",
 		"tabs": {
 			"form": "Form",
@@ -226,7 +226,7 @@
 		"section3Desc": "Sebelum klaim program, cek ulang detailnya di halaman resmi provider. Keputusan untuk mendaftar, mengirim data, memasukkan kartu pembayaran, atau memakai layanan pihak ketiga sepenuhnya menjadi tanggung jawab pengguna.",
 		"section4Title": "4. Kontribusi komunitas & Aturan Link Referral",
 		"section4P1": "Kontribusi harus menyertakan informasi yang benar, sumber resmi, dan tidak menyesatkan. Kontributor dilarang keras mengirim spam, link berbahaya, atau program palsu.",
-		"section4P2": "Kebijakan Link Referral: Siapa pun diperbolehkan memasukkan link referral milik mereka sendiri saat mengajukan program bansos baru. Namun, dilarang keras menimpa atau mengganti (replace) link referral milik kontributor lain yang sudah terdaftar sebelumnya demi menjaga sportivitas dan menghargai kontributor pertama program tersebut (gentleman's agreement).",
+		"section4P2": "Kebijakan Link Referral: Siapa pun diperbolehkan menyertakan link referral miliknya sendiri saat mengirim bansos baru. Referral aktif tidak boleh ditimpa atau diganti. Listing referral berlaku satu bulan sejak tanggal publikasi; setelah itu maintainer menandai listing lama sebagai expired sebelum menerima referral pengganti. Masa berlaku promo provider tetap terpisah dari masa tampil referral ini.",
 		"section5Title": "5. Larangan: Abuse, Pelanggaran ToS & Ilegal",
 		"section5Intro": "DILARANG KERAS memanfaatkan informasi bansos di platform ini untuk:",
 		"liAbuse": "Tujuan abuse atau mengeksploitasi celah kebijakan/keamanan provider.",
