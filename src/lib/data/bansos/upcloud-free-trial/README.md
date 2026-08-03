@@ -1,0 +1,52 @@
+# ✅ UpCloud Free Trial hingga 30 Hari + $500
+
+**Provider:** UpCloud
+
+UpCloud memberi pengguna baru free trial standar 7 hari. Berdasarkan uji langsung kontributor, promo tertentu dapat membuka hingga 30 hari free trial dan benefit $500 setelah verifikasi akun serta setup pembayaran dengan kartu kredit.
+
+> **Status:** Aktif
+
+⏰ **Info Waktu:** Trial standar berlangsung 7 hari setelah aktivasi; hasil uji langsung menunjukkan promo tertentu dapat memberi hingga 30 hari dan benefit $500. Promo, durasi, dan eligibility dapat berubah.
+
+🏷️ **Promo Code:** `BOOST500`
+
+## Keuntungan
+
+- Trial 7 hari setelah diaktifkan
+- Promo tertentu: hasil uji langsung kontributor menunjukkan hingga 30 hari free trial dan benefit $500
+- Cloud Server hingga 2 core dan 4 GB RAM
+- Block Storage hingga 60 GB untuk Archive, Standard, dan MaxIOPS
+- Managed Database 1 node: MySQL, PostgreSQL, Valkey, atau OpenSearch
+- Managed Kubernetes, Object Storage, Load Balancer, dan networking dalam kuota trial
+- Tambahkan minimal $10 ke saldo untuk menghapus batas trial dan mempertahankan layanan trial
+- Akses penuh ke semua produk dan dukungan 24/7 setelah saldo ditambahkan
+- Model prepaid: tambahkan saldo lalu gunakan sesuai pemakaian
+- Jaminan pengembalian dana 30 hari untuk pembayaran pertama hingga $500
+
+## Persyaratan
+
+- Buat akun UpCloud baru
+- Login dan aktifkan free trial dalam 365 hari setelah registrasi
+- Masukkan kode promo yang tersedia saat pendaftaran jika masih diterima
+- Verifikasi identitas dengan informasi billing
+- Siapkan dan setup pembayaran dengan kartu kredit untuk mengaktifkan promo
+- Siapkan kartu untuk otorisasi sementara 0 atau 1 EUR/USD
+- Tambahkan minimal $10 ke saldo jika ingin menghapus batas trial dan mempertahankan layanan
+- Gunakan layanan sesuai kuota trial dan Terms of Service
+
+## Tips
+
+Kode promo ini ditemukan dan berhasil diuji langsung oleh kontributor; ketersediaan dan eligibility dapat berubah serta belum tercantum di dokumentasi publik. Penawaran $10+ adalah pembayaran saldo prepaid, bukan benefit gratis. Dokumentasi menyebut kartu tidak ditagih sebelum, selama, atau sesudah trial, tetapi Terms memberi hak UpCloud mulai menagih setelah trial; hentikan subscription sebelum trial berakhir jika tidak ingin lanjut berbayar. Jaminan pengembalian dana 30 hari hingga $500 berlaku untuk pembayaran pertama. Trial tidak mencakup Windows, GPU, Private Cloud, atau Private Cloud GPU; port SMTP 25 diblokir. Terms mengarahkan layanan untuk kebutuhan bisnis dan profesional, bukan penggunaan personal.
+
+---
+
+[🔗 Klaim Bansos Ini](https://signup.upcloud.com/)
+
+
+🏷️ Tags: Cloud · Hosting · Free Trial · Developer Tools
+
+✏️ Dikontribusikan oleh `wauputr4`
+
+---
+
+*[bansos.dev](https://bansos.dev) — Open Source Catalog*

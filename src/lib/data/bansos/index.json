@@ -1,6 +1,6 @@
 {
 	"generatedAt": "2026-08-02",
-	"total": 81,
+	"total": 82,
 	"items": [
 		{
 			"id": "adobe-creative-cloud-pro-trial",
@@ -738,6 +738,16 @@
 			"featured": false,
 			"publishedAt": "2026-06-18",
 			"contributorSlug": "bang-joe"
+		},
+		{
+			"id": "upcloud-free-trial",
+			"title": "UpCloud Free Trial hingga 30 Hari + $500",
+			"provider": "UpCloud",
+			"status": "active",
+			"tags": ["Cloud", "Hosting", "Free Trial", "Developer Tools"],
+			"featured": false,
+			"publishedAt": "2026-08-03",
+			"contributorSlug": "wauputr4"
 		},
 		{
 			"id": "v0-vercel-ai-credits-up-to-200",
