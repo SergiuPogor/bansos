@@ -1,19 +1,19 @@
-# ✅ UpCloud Free Trial hingga 30 Hari + $500 dengan BOOST500
+# ✅ UpCloud Free Trial hingga 30 Hari + $500
 
 **Provider:** UpCloud
 
-UpCloud memberi pengguna baru free trial standar 7 hari. Berdasarkan uji langsung kontributor, kode BOOST500 dapat membuka promo hingga 30 hari free trial dan benefit $500 setelah verifikasi akun serta setup pembayaran dengan kartu kredit.
+UpCloud memberi pengguna baru free trial standar 7 hari. Berdasarkan uji langsung kontributor, promo tertentu dapat membuka hingga 30 hari free trial dan benefit $500 setelah verifikasi akun serta setup pembayaran dengan kartu kredit.
 
 > **Status:** Aktif
 
-⏰ **Info Waktu:** Trial standar berlangsung 7 hari setelah aktivasi; hasil uji langsung menunjukkan BOOST500 dapat memberi hingga 30 hari dan benefit $500. Promo, durasi, dan eligibility dapat berubah.
+⏰ **Info Waktu:** Trial standar berlangsung 7 hari setelah aktivasi; hasil uji langsung menunjukkan promo tertentu dapat memberi hingga 30 hari dan benefit $500. Promo, durasi, dan eligibility dapat berubah.
 
 🏷️ **Promo Code:** `BOOST500`
 
 ## Keuntungan
 
 - Trial 7 hari setelah diaktifkan
-- Kode BOOST500: hasil uji langsung kontributor menunjukkan hingga 30 hari free trial dan benefit $500
+- Promo tertentu: hasil uji langsung kontributor menunjukkan hingga 30 hari free trial dan benefit $500
 - Cloud Server hingga 2 core dan 4 GB RAM
 - Block Storage hingga 60 GB untuk Archive, Standard, dan MaxIOPS
 - Managed Database 1 node: MySQL, PostgreSQL, Valkey, atau OpenSearch
@@ -27,7 +27,7 @@ UpCloud memberi pengguna baru free trial standar 7 hari. Berdasarkan uji langsun
 
 - Buat akun UpCloud baru
 - Login dan aktifkan free trial dalam 365 hari setelah registrasi
-- Masukkan kode promo BOOST500 saat pendaftaran jika masih diterima
+- Masukkan kode promo yang tersedia saat pendaftaran jika masih diterima
 - Verifikasi identitas dengan informasi billing
 - Siapkan dan setup pembayaran dengan kartu kredit untuk mengaktifkan promo
 - Siapkan kartu untuk otorisasi sementara 0 atau 1 EUR/USD
@@ -36,7 +36,7 @@ UpCloud memberi pengguna baru free trial standar 7 hari. Berdasarkan uji langsun
 
 ## Tips
 
-Kode BOOST500 ditemukan dan berhasil diuji langsung oleh kontributor; ketersediaan dan eligibility dapat berubah serta belum tercantum di dokumentasi publik. Penawaran $10+ adalah pembayaran saldo prepaid, bukan benefit gratis. Dokumentasi menyebut kartu tidak ditagih sebelum, selama, atau sesudah trial, tetapi Terms memberi hak UpCloud mulai menagih setelah trial; hentikan subscription sebelum trial berakhir jika tidak ingin lanjut berbayar. Jaminan pengembalian dana 30 hari hingga $500 berlaku untuk pembayaran pertama. Trial tidak mencakup Windows, GPU, Private Cloud, atau Private Cloud GPU; port SMTP 25 diblokir. Terms mengarahkan layanan untuk kebutuhan bisnis dan profesional, bukan penggunaan personal.
+Kode promo ini ditemukan dan berhasil diuji langsung oleh kontributor; ketersediaan dan eligibility dapat berubah serta belum tercantum di dokumentasi publik. Penawaran $10+ adalah pembayaran saldo prepaid, bukan benefit gratis. Dokumentasi menyebut kartu tidak ditagih sebelum, selama, atau sesudah trial, tetapi Terms memberi hak UpCloud mulai menagih setelah trial; hentikan subscription sebelum trial berakhir jika tidak ingin lanjut berbayar. Jaminan pengembalian dana 30 hari hingga $500 berlaku untuk pembayaran pertama. Trial tidak mencakup Windows, GPU, Private Cloud, atau Private Cloud GPU; port SMTP 25 diblokir. Terms mengarahkan layanan untuk kebutuhan bisnis dan profesional, bukan penggunaan personal.
 
 ---
 
