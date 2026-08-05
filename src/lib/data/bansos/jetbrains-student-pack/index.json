@@ -1,0 +1,28 @@
+{
+	"id": "jetbrains-student-pack",
+	"title": "JetBrains Student Pack — Semua IDE Gratis untuk Pelajar",
+	"provider": "JetBrains",
+	"description": "Akses gratis semua produk JetBrains (IntelliJ IDEA, PyCharm, WebStorm, CLion, DataGrip, dan lainnya) untuk pelajar, mahasiswa, dan peserta bootcamp/course. Termasuk plugin, sertifikat ujian, dan akses ke JetBrains Academy courses.",
+	"benefits": [
+		"Semua IDE JetBrains (All Products Pack) gratis",
+		"Akses plugin premium & sertifikat ujian resmi",
+		"JetBrains Academy — belajar coding interaktif",
+		"Lisensi gratis 1 tahun, bisa diperpanjang selama masih jadi pelajar"
+	],
+	"validity": {
+		"type": "uncertain",
+		"description": "Lisensi berlaku 1 tahun dan dapat diperpanjang selama masih berstatus pelajar"
+	},
+	"requirements": [
+		"Berstatus pelajar/mahasiswa di sekolah, universitas, atau bootcamp/course",
+		"Verifikasi identitas via email institusi atau dokumen resmi",
+		"Perpanjang lisensi tiap tahun selama masih memenuhi syarat"
+	],
+	"ctaLink": "https://www.jetbrains.com/shop/eform/v2/students",
+	"tags": ["Developer Tools", "IDEs", "Free Tier", "Student", "Education"],
+	"status": "active",
+	"featured": false,
+	"publishedAt": "2026-08-05",
+	"source": "https://www.jetbrains.com/academy/student-pack/",
+	"contributorSlug": "wenn-id"
+}
