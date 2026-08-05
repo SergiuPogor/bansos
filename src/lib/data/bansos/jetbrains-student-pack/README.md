@@ -2,7 +2,7 @@
 
 **Provider:** JetBrains
 
-Akses gratis semua produk JetBrains (IntelliJ IDEA, PyCharm, WebStorm, CLion, DataGrip, dan lainnya) untuk pelajar, mahasiswa, dan peserta bootcamp/course. Termasuk plugin, sertifikat ujian, dan akses ke JetBrains Academy courses.
+Akses gratis semua produk JetBrains untuk mahasiswa full-time: 10 IDE (IntelliJ IDEA, PyCharm, WebStorm, CLion, DataGrip, GoLand, PhpStorm, Rider, RubyMine, RustRover), ditambah trial JetBrains AI Pro dan akses kursus coding JetBrains Academy.
 
 > **Status:** Aktif
 
@@ -10,15 +10,15 @@ Akses gratis semua produk JetBrains (IntelliJ IDEA, PyCharm, WebStorm, CLion, Da
 
 ## Keuntungan
 
-- Semua IDE JetBrains (All Products Pack) gratis
-- Akses plugin premium & sertifikat ujian resmi
-- JetBrains Academy — belajar coding interaktif
+- 10 IDE JetBrains (All Products Pack) gratis untuk pelajar
+- Trial JetBrains AI Pro: unlimited code completion + AI chat & agents (Codex, Claude Agent, Junie)
+- JetBrains Academy — kursus coding hands-on di dalam IDE
 - Lisensi gratis 1 tahun, bisa diperpanjang selama masih jadi pelajar
 
 ## Persyaratan
 
-- Berstatus pelajar/mahasiswa di sekolah, universitas, atau bootcamp/course
-- Verifikasi identitas via email institusi atau dokumen resmi
+- Full-time student dalam program yang berlangsung minimal 1 tahun (universitas atau sekolah)
+- Verifikasi identitas via email universitas, kartu ISIC/ITIC, atau GitHub Student Developer Pack
 - Perpanjang lisensi tiap tahun selama masih memenuhi syarat
 
 ---
