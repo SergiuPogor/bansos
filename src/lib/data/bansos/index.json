@@ -1,6 +1,6 @@
 {
 	"generatedAt": "2026-08-02",
-	"total": 82,
+	"total": 83,
 	"items": [
 		{
 			"id": "adobe-creative-cloud-pro-trial",
@@ -419,6 +419,16 @@
 			"featured": true,
 			"publishedAt": "2026-07-11",
 			"contributorSlug": "wauputr4"
+		},
+		{
+			"id": "jetbrains-student-pack",
+			"title": "JetBrains Student Pack — Semua IDE Gratis untuk Pelajar",
+			"provider": "JetBrains",
+			"status": "active",
+			"tags": ["Developer Tools", "IDEs", "Free Tier", "Student", "Education"],
+			"featured": false,
+			"publishedAt": "2026-08-05",
+			"contributorSlug": "wenn-id"
 		},
 		{
 			"id": "kie-ai-api-discount-credit",

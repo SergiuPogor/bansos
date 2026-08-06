@@ -115,9 +115,9 @@
 		"url": "https://github.com/wauputr4/bansos/commit/1157999e5dd65910aa60af5c6510bb7f024a4c12"
 	},
 	"free-5-credit-for-new-opencode-go-users": {
-		"hash": "dbe76c29652e370eb9193904fe95b13f65442fb2",
-		"date": "2026-07-26T00:08:37+07:00",
-		"url": "https://github.com/wauputr4/bansos/commit/dbe76c29652e370eb9193904fe95b13f65442fb2"
+		"hash": "bc739a1e94f5bb7fc5d62d5b25b1746d14901208",
+		"date": "2026-07-30T14:41:35+07:00",
+		"url": "https://github.com/wauputr4/bansos/commit/bc739a1e94f5bb7fc5d62d5b25b1746d14901208"
 	},
 	"freebuff-ai-builder": {
 		"hash": "82ac7b27164b75a5e61be298d14856f13e73296b",
@@ -159,6 +159,11 @@
 		"date": "2026-06-21T15:46:56+07:00",
 		"url": "https://github.com/wauputr4/bansos/commit/50cf8959b23628c12cb1b9ffcc55ba3aea77def9"
 	},
+	"gorouter-free-75-ai-credit": {
+		"hash": "08b227e385a3c8b146979c2498c6d67e0128e0ef",
+		"date": "2026-07-29T21:18:41+07:00",
+		"url": "https://github.com/wauputr4/bansos/commit/08b227e385a3c8b146979c2498c6d67e0128e0ef"
+	},
 	"gumloop-free-credits": {
 		"hash": "50cf8959b23628c12cb1b9ffcc55ba3aea77def9",
 		"date": "2026-06-21T15:46:56+07:00",
@@ -198,6 +203,11 @@
 		"hash": "90a36ce7dc5df0d8ba8e36e11fbe8f9699cb70bf",
 		"date": "2026-07-11T08:20:24Z",
 		"url": "https://github.com/wauputr4/bansos/commit/90a36ce7dc5df0d8ba8e36e11fbe8f9699cb70bf"
+	},
+	"jetbrains-student-pack": {
+		"hash": "982c132c338f0d410293560ebebd82c13e73f640",
+		"date": "2026-08-06T00:19:53+07:00",
+		"url": "https://github.com/wauputr4/bansos/commit/982c132c338f0d410293560ebebd82c13e73f640"
 	},
 	"kie-ai-api-discount-credit": {
 		"hash": "3750e3969354d6594529e80d4e2f5db9ea98dd63",
@@ -275,9 +285,9 @@
 		"url": "https://github.com/wauputr4/bansos/commit/50cf8959b23628c12cb1b9ffcc55ba3aea77def9"
 	},
 	"opencode-go-free-5-credit": {
-		"hash": "72652d38096856179805412b6f5fe98660971f27",
-		"date": "2026-06-24T10:46:54Z",
-		"url": "https://github.com/wauputr4/bansos/commit/72652d38096856179805412b6f5fe98660971f27"
+		"hash": "bc739a1e94f5bb7fc5d62d5b25b1746d14901208",
+		"date": "2026-07-30T14:41:35+07:00",
+		"url": "https://github.com/wauputr4/bansos/commit/bc739a1e94f5bb7fc5d62d5b25b1746d14901208"
 	},
 	"openmodel-deepseek-v4-flash-free": {
 		"hash": "31af1e4a08784c119231e75d2d9b74041a5f07ae",
@@ -290,9 +300,9 @@
 		"url": "https://github.com/wauputr4/bansos/commit/61d86bf2a5b48c24e80d47599dfe9154e733a872"
 	},
 	"promo-domain-sitequ": {
-		"hash": "d212d25b22a6b424fe27bd7415e5b3b9c33db364",
-		"date": "2026-07-24T00:30:26+07:00",
-		"url": "https://github.com/wauputr4/bansos/commit/d212d25b22a6b424fe27bd7415e5b3b9c33db364"
+		"hash": "5c3849b1021c2b54ea66e88142ee970c4ea24793",
+		"date": "2026-08-02T18:56:52+07:00",
+		"url": "https://github.com/wauputr4/bansos/commit/5c3849b1021c2b54ea66e88142ee970c4ea24793"
 	},
 	"qoder-qwen-max-free": {
 		"hash": "50cf8959b23628c12cb1b9ffcc55ba3aea77def9",
@@ -303,6 +313,11 @@
 		"hash": "3750e3969354d6594529e80d4e2f5db9ea98dd63",
 		"date": "2026-06-30T08:00:14Z",
 		"url": "https://github.com/wauputr4/bansos/commit/3750e3969354d6594529e80d4e2f5db9ea98dd63"
+	},
+	"seekai-free-200-ai-credit": {
+		"hash": "16d9e857eb7c11c17ec7be49f94e840ea6fc3f0f",
+		"date": "2026-08-02T19:22:53+07:00",
+		"url": "https://github.com/wauputr4/bansos/commit/16d9e857eb7c11c17ec7be49f94e840ea6fc3f0f"
 	},
 	"servernusa-free-xiaomi-mimo": {
 		"hash": "09cdc6cf06088fd26c1c14fa57fd401c10f7196e",
@@ -349,6 +364,11 @@
 		"date": "2026-06-30T08:00:14Z",
 		"url": "https://github.com/wauputr4/bansos/commit/3750e3969354d6594529e80d4e2f5db9ea98dd63"
 	},
+	"upcloud-free-trial": {
+		"hash": "09344f8f14ad5e37319c492b5a4bbb9c0d8e448c",
+		"date": "2026-08-03T19:54:13+07:00",
+		"url": "https://github.com/wauputr4/bansos/commit/09344f8f14ad5e37319c492b5a4bbb9c0d8e448c"
+	},
 	"v0-vercel-ai-credits-up-to-200": {
 		"hash": "4f31dd415d9b2af10ec51dfb03c95fde77883ce8",
 		"date": "2026-06-27T05:37:05Z",
@@ -358,6 +378,11 @@
 		"hash": "6f513f3507ad72b3c69fa07b48c671dd2908c256",
 		"date": "2026-07-23T16:50:42+07:00",
 		"url": "https://github.com/wauputr4/bansos/commit/6f513f3507ad72b3c69fa07b48c671dd2908c256"
+	},
+	"vyce-ai-free-40-credit": {
+		"hash": "1d98737faaebcf662fb15762b3c4c348aa10369c",
+		"date": "2026-08-03T18:33:10+07:00",
+		"url": "https://github.com/wauputr4/bansos/commit/1d98737faaebcf662fb15762b3c4c348aa10369c"
 	},
 	"xai-grok-api-credits": {
 		"hash": "50cf8959b23628c12cb1b9ffcc55ba3aea77def9",
