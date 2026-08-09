@@ -1,0 +1,41 @@
+# ✅ Token Harbor Free $5 Credit + Model AI Gratis
+
+**Provider:** Token Harbor
+
+Token Harbor adalah gateway AI terpadu yang menyatukan akses ke model frontier lewat satu endpoint kompatibel OpenAI. Setiap akun baru menerima kredit uji coba senilai $5 tanpa kartu kredit, dan bisa memakai beberapa model berlabel :free tanpa memotong saldo sama sekali. Tersedia juga bonus 100 persen untuk pengisian saldo pertama. Perlu dicatat, kredit $5 diberikan ke semua akun baru dan tidak bertambah karena memakai kode undangan; kode undangan hanya memberi bonus kepada pengundang.
+
+> **Status:** Aktif
+
+⏰ **Info Waktu:** Layanan baru dan program promo bisa berubah sewaktu-waktu; kredit $5 hangus 7 hari setelah pendaftaran
+
+## Keuntungan
+
+- Kredit uji coba senilai $5 untuk setiap akun baru, tanpa kartu kredit
+- Akses gratis ke Kimi K3, DeepSeek V4 Flash, dan MiMo V2.5 lewat model ID berakhiran :free, dengan jatah berbasis nilai yang berulang tiap 7 hari
+- Bonus 100 persen untuk pengisian saldo pertama, maksimal $100, berlaku 14 hari sejak pendaftaran
+- Satu endpoint kompatibel OpenAI untuk Claude Opus 5, Claude Fable 5, GPT-5.6 Sol, Gemini 3.6 Flash, Qwen3.8 Max, Grok 4.5, dan GLM 5.2
+- Tanpa langganan bulanan, pembayaran murni per token sesuai pemakaian
+
+## Persyaratan
+
+- Buat akun baru lewat Google, GitHub, atau email dengan kata sandi minimal 12 karakter
+- Buat API key di dashboard sebelum mulai memanggil model
+- Aktifkan rute model gratis secara manual di dashboard karena rute :free mati secara bawaan
+- Gunakan kredit dalam 7 hari sejak pendaftaran sebelum hangus
+
+## Tips
+
+Kredit $5 adalah bonus pendaftaran biasa yang diterima semua akun baru, jadi memakai kode undangan tidak menambah saldo pendaftar; yang mendapat bonus $2 hanyalah pengundang. Layanan ini masih sangat baru, dan halaman status resminya mencatat uptime basis data 98,40 persen dalam 7 hari terakhir dengan beberapa insiden timeout, jadi hindari memakainya untuk beban kerja produksi. Rute model gratis tidak menerapkan zero data retention: prompt dan respons bisa disimpan setelah kamu menyetujuinya, sedangkan rute berbayar tetap tanpa penyimpanan. Seluruh insentif digabung dibatasi $500 seumur hidup per akun.
+
+---
+
+[🔗 Klaim Bansos Ini](https://tokenharbor.ai/login?invite=TH-BBW7-3JMM)
+
+
+🏷️ Tags: AI Credits · API · AI Tools · Free Tier · Developer Tools
+
+✏️ Dikontribusikan oleh `syafii-fahreza`
+
+---
+
+*[bansos.dev](https://bansos.dev) — Open Source Catalog*

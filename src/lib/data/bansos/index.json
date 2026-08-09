@@ -1,6 +1,6 @@
 {
 	"generatedAt": "2026-08-02",
-	"total": 84,
+	"total": 85,
 	"items": [
 		{
 			"id": "adobe-creative-cloud-pro-trial",
@@ -728,6 +728,16 @@
 			"featured": false,
 			"publishedAt": "2026-07-15",
 			"contributorSlug": "zulhanf"
+		},
+		{
+			"id": "tokenharbor-free-5-credit",
+			"title": "Token Harbor Free $5 Credit + Model AI Gratis",
+			"provider": "Token Harbor",
+			"status": "active",
+			"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools"],
+			"featured": false,
+			"publishedAt": "2026-08-09",
+			"contributorSlug": "syafii-fahreza"
 		},
 		{
 			"id": "tokenrouter-minimax-m3-free",
