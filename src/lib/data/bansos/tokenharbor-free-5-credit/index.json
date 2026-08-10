@@ -1,0 +1,31 @@
+{
+	"id": "tokenharbor-free-5-credit",
+	"title": "Token Harbor Free $5 Credit + Model AI Gratis",
+	"provider": "Token Harbor",
+	"description": "Token Harbor adalah gateway AI terpadu yang menyatukan akses ke model frontier lewat satu endpoint kompatibel OpenAI. Setiap akun baru menerima kredit uji coba senilai $5 tanpa kartu kredit, dan bisa memakai beberapa model berlabel :free tanpa memotong saldo sama sekali. Tersedia juga bonus 100 persen untuk pengisian saldo pertama. Perlu dicatat, kredit $5 diberikan ke semua akun baru dan tidak bertambah karena memakai kode undangan; kode undangan hanya memberi bonus kepada pengundang.",
+	"benefits": [
+		"Kredit uji coba senilai $5 untuk setiap akun baru, tanpa kartu kredit",
+		"Akses gratis ke DeepSeek V4 Flash (Teamo) dan MiMo V2.5 lewat model ID berakhiran :free, dengan jatah berbasis nilai yang berulang tiap 7 hari",
+		"Bonus 100 persen untuk pengisian saldo pertama, maksimal $100, berlaku 14 hari sejak pendaftaran",
+		"Satu endpoint kompatibel OpenAI untuk Claude Opus 5, Claude Fable 5, GPT-5.6 Sol, Gemini 3.6 Flash, Qwen3.8 Max, Grok 4.5, dan GLM 5.2",
+		"Tanpa langganan bulanan, pembayaran murni per token sesuai pemakaian"
+	],
+	"validity": {
+		"type": "uncertain",
+		"description": "Layanan baru dan program promo bisa berubah sewaktu-waktu; kredit $5 hangus 7 hari setelah pendaftaran"
+	},
+	"requirements": [
+		"Buat akun baru lewat Google, GitHub, atau email dengan kata sandi minimal 12 karakter",
+		"Buat API key di dashboard sebelum mulai memanggil model",
+		"Aktifkan rute model gratis secara manual di dashboard karena rute :free mati secara bawaan",
+		"Gunakan kredit dalam 7 hari sejak pendaftaran sebelum hangus"
+	],
+	"ctaLink": "https://tokenharbor.ai/login?invite=TH-BBW7-3JMM",
+	"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools"],
+	"status": "active",
+	"featured": false,
+	"publishedAt": "2026-08-09",
+	"tips": "Kredit $5 adalah bonus pendaftaran biasa yang diterima semua akun baru, jadi memakai kode undangan tidak menambah saldo pendaftar; yang mendapat bonus $2 hanyalah pengundang. Layanan ini masih sangat baru, dan halaman status resmi (https://tokenharbor.ai/status) mencatat beberapa insiden timeout, jadi hindari memakainya untuk beban kerja produksi. Rute model gratis tidak menerapkan zero data retention: prompt dan respons bisa disimpan setelah kamu menyetujuinya, sedangkan rute berbayar tetap tanpa penyimpanan. Seluruh insentif digabung dibatasi $500 seumur hidup per akun.",
+	"source": "https://tokenharbor.ai/faq",
+	"contributorSlug": "syafii-fahreza"
+}
