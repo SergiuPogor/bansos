@@ -7,7 +7,12 @@
 	"links": {
 		"github": "https://github.com/Rafly0078"
 	},
-	"contributedBansos": ["gorouter-free-75-ai-credit"],
+	"contributedBansos": [
+		"gorouter-free-75-ai-credit",
+		"hcnsec-free-30k-api-credit",
+		"modeloc-invite-100k-compute",
+		"tabiai-free-120-api-credit"
+	],
 	"hidden": false,
 	"joinedAt": "2026-07-29"
 }
