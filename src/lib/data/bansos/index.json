@@ -665,7 +665,7 @@
 			"provider": "Qoder",
 			"status": "active",
 			"tags": ["AI", "AI Credits"],
-			"featured": true,
+			"featured": false,
 			"publishedAt": "2026-08-08",
 			"contributorSlug": "renyx"
 		},

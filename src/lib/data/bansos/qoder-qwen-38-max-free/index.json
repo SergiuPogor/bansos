@@ -24,7 +24,7 @@
 	"ctaLink": "https://qoder.com/en",
 	"tags": ["AI", "AI Credits"],
 	"status": "active",
-	"featured": true,
+	"featured": false,
 	"publishedAt": "2026-08-08",
 	"source": "https://docs.qoder.com/events/qwen-max",
 	"contributorSlug": "renyx"
