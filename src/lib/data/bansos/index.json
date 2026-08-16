@@ -1,6 +1,6 @@
 {
-	"generatedAt": "2026-08-08",
-	"total": 85,
+	"generatedAt": "2026-08-16",
+	"total": 89,
 	"items": [
 		{
 			"id": "adobe-creative-cloud-pro-trial",
@@ -361,6 +361,16 @@
 			"contributorSlug": "brian"
 		},
 		{
+			"id": "hcnsec-free-30k-api-credit",
+			"title": "hcnsec Free ¥30K API Credit",
+			"provider": "hcnsec",
+			"status": "active",
+			"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools"],
+			"featured": false,
+			"publishedAt": "2026-08-09",
+			"contributorSlug": "rafly0078"
+		},
+		{
 			"id": "idwebhost-claim-domain-gratis-myid-juli2026",
 			"title": "Klaim Domain Gratis .MY.ID / .WEB.ID / .BIZ.ID — 1 Tahun!",
 			"provider": "IDwebhost",
@@ -509,6 +519,16 @@
 			"featured": false,
 			"publishedAt": "2026-07-06",
 			"contributorSlug": "mugi-wiguna"
+		},
+		{
+			"id": "modeloc-invite-100k-compute",
+			"title": "MODELOC Invite — 100k Compute (≈ $10) untuk Akun Baru",
+			"provider": "MODELOC",
+			"status": "active",
+			"tags": ["AI Credits", "API", "LLM", "Referral"],
+			"featured": false,
+			"publishedAt": "2026-08-14",
+			"contributorSlug": "rafly0078"
 		},
 		{
 			"id": "modelset-free-credit",
@@ -700,6 +720,16 @@
 			"contributorSlug": "devers"
 		},
 		{
+			"id": "tabiai-free-120-api-credit",
+			"title": "TaBiAI Free API Credit",
+			"provider": "TaBiAI",
+			"status": "active",
+			"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools"],
+			"featured": false,
+			"publishedAt": "2026-08-09",
+			"contributorSlug": "rafly0078"
+		},
+		{
 			"id": "tencent-cloud-free-tier",
 			"title": "Tencent Cloud Free Tier (Trial Gratis 30+ Produk)",
 			"provider": "Tencent Cloud",
@@ -728,6 +758,16 @@
 			"featured": false,
 			"publishedAt": "2026-07-15",
 			"contributorSlug": "zulhanf"
+		},
+		{
+			"id": "tokenharbor-free-5-credit",
+			"title": "Token Harbor Free $5 Credit + Model AI Gratis",
+			"provider": "Token Harbor",
+			"status": "active",
+			"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools"],
+			"featured": false,
+			"publishedAt": "2026-08-09",
+			"contributorSlug": "syafii-fahreza"
 		},
 		{
 			"id": "tokenrouter-minimax-m3-free",
