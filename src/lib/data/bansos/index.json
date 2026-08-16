@@ -1,6 +1,6 @@
 {
-	"generatedAt": "2026-08-10",
-	"total": 87,
+	"generatedAt": "2026-08-16",
+	"total": 88,
 	"items": [
 		{
 			"id": "adobe-creative-cloud-pro-trial",
@@ -519,6 +519,16 @@
 			"featured": false,
 			"publishedAt": "2026-07-06",
 			"contributorSlug": "mugi-wiguna"
+		},
+		{
+			"id": "modeloc-invite-100k-compute",
+			"title": "MODELOC Invite — 100k Compute (≈ $10) untuk Akun Baru",
+			"provider": "MODELOC",
+			"status": "active",
+			"tags": ["AI Credits", "API", "LLM", "Referral"],
+			"featured": false,
+			"publishedAt": "2026-08-14",
+			"contributorSlug": "rafly0078"
 		},
 		{
 			"id": "modelset-free-credit",
