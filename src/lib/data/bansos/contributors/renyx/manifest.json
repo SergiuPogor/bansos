@@ -5,7 +5,11 @@
 	"title": "",
 	"skills": [],
 	"links": {},
-	"contributedBansos": ["inferx-deepseek-v4-flash", "qoder-qwen-38-max-free"],
+	"contributedBansos": [
+		"inferx-deepseek-v4-flash",
+		"qoder-qwen-38-max-free",
+		"xiaomi-mimo-api-key-gratis"
+	],
 	"hidden": false,
 	"joinedAt": "2026-08-08"
 }
