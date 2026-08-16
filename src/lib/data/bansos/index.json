@@ -865,7 +865,7 @@
 			"provider": "xKiro",
 			"status": "active",
 			"tags": ["AI", "API", "Free Trial"],
-			"featured": true,
+			"featured": false,
 			"publishedAt": "2026-08-08",
 			"contributorSlug": "renyx"
 		},
