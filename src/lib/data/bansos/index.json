@@ -1,6 +1,6 @@
 {
 	"generatedAt": "2026-08-16",
-	"total": 89,
+	"total": 91,
 	"items": [
 		{
 			"id": "adobe-creative-cloud-pro-trial",
@@ -401,6 +401,16 @@
 			"contributorSlug": "wauputr4"
 		},
 		{
+			"id": "inferx-deepseek-v4-flash",
+			"title": "DeepSeek V4 Flash Gratis di InferX",
+			"provider": "InferX",
+			"status": "active",
+			"tags": ["AI", "API", "Free Tier"],
+			"featured": false,
+			"publishedAt": "2026-08-08",
+			"contributorSlug": "renyx"
+		},
+		{
 			"id": "jagoanhosting-free-domain-webid",
 			"title": "Domain .WEB.ID GRATIS 1 Tahun | Jagoan Hosting",
 			"provider": "Jagoan Hosting",
@@ -660,10 +670,20 @@
 			"contributorSlug": "sitequ-digital-indonesia"
 		},
 		{
+			"id": "qoder-qwen-38-max-free",
+			"title": "Qoder Qwen3.8-Max — 800–2.000 Panggilan Gratis",
+			"provider": "Qoder",
+			"status": "active",
+			"tags": ["AI", "AI Credits"],
+			"featured": false,
+			"publishedAt": "2026-08-08",
+			"contributorSlug": "renyx"
+		},
+		{
 			"id": "qoder-qwen-max-free",
 			"title": "200 Panggilan Model Qwen3.7-Max Gratis per Hari di Qoder",
 			"provider": "Qoder",
-			"status": "active",
+			"status": "expired",
 			"tags": ["AI Credits"],
 			"featured": false,
 			"publishedAt": "2026-06-15",

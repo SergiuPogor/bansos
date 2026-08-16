@@ -1,3 +1,3 @@
 # Renyx
 
-Kontributor komunitas bansos.dev.
+Kontributor komunitas [bansos.dev](https://bansos.dev).

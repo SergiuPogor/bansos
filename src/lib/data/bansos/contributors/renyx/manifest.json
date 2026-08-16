@@ -5,7 +5,11 @@
 	"title": "",
 	"skills": [],
 	"links": {},
-	"contributedBansos": ["xkiro-pro-7-hari"],
+	"contributedBansos": [
+		"inferx-deepseek-v4-flash",
+		"qoder-qwen-38-max-free",
+		"xkiro-pro-7-hari"
+	],
 	"hidden": false,
 	"joinedAt": "2026-08-08"
 }
