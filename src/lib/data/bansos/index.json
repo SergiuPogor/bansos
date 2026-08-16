@@ -855,7 +855,7 @@
 			"provider": "Xiaomi MiMo",
 			"status": "active",
 			"tags": ["AI Credits", "API"],
-			"featured": true,
+			"featured": false,
 			"publishedAt": "2026-08-08",
 			"contributorSlug": "renyx"
 		},
