@@ -19,7 +19,8 @@ MODELOC adalah platform compute pool sekaligus pendeteksi keaslian model. Daftar
 
 - Daftar akun baru MODELOC lewat link invite (reward khusus pendaftaran baru, akun lama tidak dapat)
 - Selesaikan proses sign up sampai masuk console, compute masuk otomatis tanpa klaim manual
-- Pakai compute buat model call lewat halaman Compute Pool atau API key MODELOC
+- Login dan gabung ke Compute Pool sekali sebelum melakukan model call
+- Gunakan API key MODELOC berawalan sk_ atau buat pool key berawalan pk_ sebelum melakukan model call
 
 ## Tips
 
