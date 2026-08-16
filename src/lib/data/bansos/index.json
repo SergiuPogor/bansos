@@ -1,6 +1,6 @@
 {
 	"generatedAt": "2026-08-16",
-	"total": 91,
+	"total": 92,
 	"items": [
 		{
 			"id": "adobe-creative-cloud-pro-trial",
@@ -888,6 +888,16 @@
 			"featured": false,
 			"publishedAt": "2026-06-17",
 			"contributorSlug": "akbar"
+		},
+		{
+			"id": "xkiro-pro-7-hari",
+			"title": "xKiro Pro Gratis 7 Hari — API AI Multi-Model",
+			"provider": "xKiro",
+			"status": "active",
+			"tags": ["AI", "API", "Free Trial"],
+			"featured": false,
+			"publishedAt": "2026-08-08",
+			"contributorSlug": "renyx"
 		},
 		{
 			"id": "zcode-glm-52-free",
