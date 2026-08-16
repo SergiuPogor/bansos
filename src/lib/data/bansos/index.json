@@ -1,6 +1,6 @@
 {
 	"generatedAt": "2026-08-16",
-	"total": 89,
+	"total": 90,
 	"items": [
 		{
 			"id": "adobe-creative-cloud-pro-trial",
@@ -399,6 +399,16 @@
 			"featured": false,
 			"publishedAt": "2026-06-12",
 			"contributorSlug": "wauputr4"
+		},
+		{
+			"id": "inferx-deepseek-v4-flash",
+			"title": "DeepSeek V4 Flash Gratis di InferX",
+			"provider": "InferX",
+			"status": "active",
+			"tags": ["AI", "API", "Free Tier"],
+			"featured": false,
+			"publishedAt": "2026-08-08",
+			"contributorSlug": "renyx"
 		},
 		{
 			"id": "jagoanhosting-free-domain-webid",
