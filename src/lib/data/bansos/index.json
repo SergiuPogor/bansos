@@ -1,6 +1,6 @@
 {
 	"generatedAt": "2026-08-16",
-	"total": 90,
+	"total": 89,
 	"items": [
 		{
 			"id": "adobe-creative-cloud-pro-trial",
@@ -406,7 +406,7 @@
 			"provider": "InferX",
 			"status": "active",
 			"tags": ["AI", "API", "Free Tier"],
-			"featured": true,
+			"featured": false,
 			"publishedAt": "2026-08-08",
 			"contributorSlug": "renyx"
 		},

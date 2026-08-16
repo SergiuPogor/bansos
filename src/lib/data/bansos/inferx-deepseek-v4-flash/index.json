@@ -21,7 +21,7 @@
 	"ctaLink": "https://model.inferx.net/catalog/endpoints",
 	"tags": ["AI", "API", "Free Tier"],
 	"status": "active",
-	"featured": true,
+	"featured": false,
 	"publishedAt": "2026-08-08",
 	"source": "https://inferx.net/",
 	"providerWebsiteUrl": "https://inferx.net/",
