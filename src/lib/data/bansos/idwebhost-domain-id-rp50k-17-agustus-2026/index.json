@@ -1,0 +1,30 @@
+{
+	"id": "idwebhost-domain-id-rp50k-17-agustus-2026",
+	"title": "Flash Sale Domain .ID Rp50.000 dari IDwebhost — 17 Agustus 2026",
+	"provider": "IDwebhost",
+	"description": "IDwebhost menawarkan flash sale registrasi domain .ID baru seharga Rp50.000 per tahun yang berlaku satu hari pada 17 Agustus 2026.",
+	"benefits": [
+		"Registrasi domain .ID baru seharga Rp50.000 per tahun",
+		"Kode kupon idmerdeka-50",
+		"Flash sale berlaku satu hari pada 17 Agustus 2026"
+	],
+	"validity": {
+		"type": "fixed",
+		"date": "2026-08-17",
+		"description": "Flash sale hanya berlaku pada 17 Agustus 2026 dan berakhir setelah hari tersebut."
+	},
+	"requirements": [
+		"Daftarkan domain .ID baru (New Registration) di IDwebhost",
+		"Gunakan kode kupon idmerdeka-50 saat checkout",
+		"Promo tidak berlaku untuk renewal, transfer domain, atau nama domain premium"
+	],
+	"ctaLink": "https://idwebhost.com/promo",
+	"tags": ["Domain", "domain17", "Diskon"],
+	"status": "active",
+	"featured": false,
+	"publishedAt": "2026-08-17",
+	"promoCode": "idmerdeka-50",
+	"tips": "Email promo menyebut harga Rp50.000 untuk satu hari pada 17 Agustus 2026. URL tombol klaim tidak terlihat pada email yang diteruskan, jadi verifikasi harga dan kode di halaman resmi sebelum checkout.",
+	"source": "https://idwebhost.com/promo",
+	"contributorSlug": "wauputr4"
+}
