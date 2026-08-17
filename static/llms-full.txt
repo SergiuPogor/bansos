@@ -1,5 +1,5 @@
 # bansos.dev — Dataset Lengkap
-> Diperbarui: 2026-08-16 | Total: 92 entri (77 aktif, 15 expired)
+> Diperbarui: 2026-08-17 | Total: 94 entri (79 aktif, 15 expired)
 
 ---
 
@@ -872,6 +872,35 @@ Tersedia 10 model LLM yang bisa digunakan melalui API key.
 - **Berlaku:** fixed — 2026-07-05 (Periode promo 3-5 Juli 2026. Kuota terbatas — kalau kode kupon sudah tidak bisa digunakan, berarti kuota habis.)
 
 🔗 **Link Detail:** https://bansos.dev/list/idwebhost-claim-domain-gratis-myid-juli2026/
+
+---
+
+### Flash Sale Domain .ID Rp50.000 dari IDwebhost — 17 Agustus 2026
+
+- **ID:** `idwebhost-domain-id-rp50k-17-agustus-2026`
+- **Provider:** IDwebhost
+- **Kategori:** Domain, domain17, Diskon
+- **Status:** active
+
+**Deskripsi:** IDwebhost menawarkan flash sale registrasi domain .ID baru seharga Rp50.000 per tahun yang berlaku satu hari pada 17 Agustus 2026.
+
+**Benefit:**
+- Registrasi domain .ID baru seharga Rp50.000 per tahun
+- Kode kupon idmerdeka-50
+- Flash sale berlaku satu hari pada 17 Agustus 2026
+
+**Cara Klaim:**
+1. Daftarkan domain .ID baru (New Registration) di IDwebhost
+2. Gunakan kode kupon idmerdeka-50 saat checkout
+3. Promo tidak berlaku untuk renewal, transfer domain, atau nama domain premium
+
+- **Kode Promo:** `idmerdeka-50`
+- **CTA Link:** https://idwebhost.com/promo
+- **Sumber:** https://idwebhost.com/promo
+- **Tips:** Email promo menyebut harga Rp50.000 untuk satu hari pada 17 Agustus 2026. URL tombol klaim tidak terlihat pada email yang diteruskan, jadi verifikasi harga dan kode di halaman resmi sebelum checkout.
+- **Berlaku:** fixed — 2026-08-17 (Flash sale hanya berlaku pada 17 Agustus 2026 dan berakhir setelah hari tersebut.)
+
+🔗 **Link Detail:** https://bansos.dev/list/idwebhost-domain-id-rp50k-17-agustus-2026/
 
 ---
 
@@ -2120,6 +2149,34 @@ Berlaku sampai tanggal 28 Juni 2026
 - **Berlaku:** uncertain (Promo tersedia sejak rilis ZCode 3.0.0 dan dapat berubah sewaktu-waktu)
 
 🔗 **Link Detail:** https://bansos.dev/list/zcode-glm-52-free/
+
+---
+
+### Promo Domain .ID Zenhosta Rp50.000 — Merdeka 2026
+
+- **ID:** `zenhosta-domain-id-rp50k-merdeka-2026`
+- **Provider:** Zenhosta
+- **Kategori:** Domain, domain17, Diskon
+- **Status:** active
+
+**Deskripsi:** Zenhosta menawarkan harga khusus registrasi domain .ID selama periode promo Kemerdekaan Indonesia, mulai Rp100.000 pada 15–16 Agustus dan Rp50.000 pada 17 Agustus 2026.
+
+**Benefit:**
+- Registrasi domain .ID Rp100.000 per tahun pada 15–16 Agustus 2026
+- Registrasi domain .ID Rp50.000 per tahun pada 17 Agustus 2026
+- Kode promo MERDEKA100 atau MERDEKA50 sesuai tanggal pemesanan
+
+**Cara Klaim:**
+1. Pesan domain .ID baru di Zenhosta
+2. Gunakan MERDEKA100 pada 15–16 Agustus atau MERDEKA50 pada 17 Agustus 2026
+3. Gunakan kode promo sesuai tanggal yang berlaku saat melakukan pemesanan
+
+- **CTA Link:** https://zenhosta.com/member/aff.php?aff=20
+- **Sumber:** https://zenhosta.com/domain
+- **Tips:** Promo memiliki dua harga dan dua kode berdasarkan tanggal pemesanan. CTA memakai link afiliasi yang diberikan pada email; halaman informasi resminya adalah zenhosta.com/domain.
+- **Berlaku:** fixed — 2026-08-17 (Promo berlangsung 15–17 Agustus 2026: MERDEKA100 berlaku 15–16 Agustus, sedangkan MERDEKA50 berlaku 17 Agustus 2026.)
+
+🔗 **Link Detail:** https://bansos.dev/list/zenhosta-domain-id-rp50k-merdeka-2026/
 
 ---
 

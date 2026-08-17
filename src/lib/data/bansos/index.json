@@ -1,6 +1,6 @@
 {
 	"generatedAt": "2026-08-16",
-	"total": 92,
+	"total": 94,
 	"items": [
 		{
 			"id": "adobe-creative-cloud-pro-trial",
@@ -389,6 +389,16 @@
 			"featured": false,
 			"publishedAt": "2026-06-13",
 			"contributorSlug": "aziz-budi-satrio"
+		},
+		{
+			"id": "idwebhost-domain-id-rp50k-17-agustus-2026",
+			"title": "Flash Sale Domain .ID Rp50.000 dari IDwebhost — 17 Agustus 2026",
+			"provider": "IDwebhost",
+			"status": "active",
+			"tags": ["Domain", "domain17", "Diskon"],
+			"featured": false,
+			"publishedAt": "2026-08-17",
+			"contributorSlug": "wauputr4"
 		},
 		{
 			"id": "inceptionlabs-get-started",
@@ -908,6 +918,16 @@
 			"featured": false,
 			"publishedAt": "2026-06-14",
 			"contributorSlug": "aofsnorth"
+		},
+		{
+			"id": "zenhosta-domain-id-rp50k-merdeka-2026",
+			"title": "Promo Domain .ID Zenhosta Rp50.000 — Merdeka 2026",
+			"provider": "Zenhosta",
+			"status": "active",
+			"tags": ["Domain", "domain17", "Diskon"],
+			"featured": false,
+			"publishedAt": "2026-08-17",
+			"contributorSlug": "wauputr4"
 		},
 		{
 			"id": "zenhosta-gratis-domain-1-tahun",
