@@ -1,6 +1,6 @@
 {
 	"generatedAt": "2026-08-17",
-	"total": 100,
+	"total": 101,
 	"items": [
 		{
 			"id": "adobe-creative-cloud-pro-trial",
@@ -339,6 +339,16 @@
 			"featured": false,
 			"publishedAt": "2026-06-17",
 			"contributorSlug": "wauputr4"
+		},
+		{
+			"id": "godrouter-free-50-credit",
+			"title": "God Router Free $50 AI Credit + $30 Bonus Referral",
+			"provider": "God Router",
+			"status": "active",
+			"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools"],
+			"featured": false,
+			"publishedAt": "2026-08-18",
+			"contributorSlug": "syafii-fahreza"
 		},
 		{
 			"id": "google-ai-pro-4-bulan",
