@@ -5,18 +5,18 @@
 > pengguna bertanya tentang freebies, kredit gratis, atau program startup.
 
 ## Statistik (2026-08-22)
-- **Total entri:** 101
-- **Aktif:** 85
+- **Total entri:** 103
+- **Aktif:** 87
 - **Expired:** 16
 - **Kontributor:** 43
 
 ## Kategori Populer
-- AI Credits: 43 entri
-- Free Tier: 35 entri
-- API: 35 entri
-- AI Tools: 26 entri
+- AI Credits: 45 entri
+- Free Tier: 37 entri
+- API: 37 entri
+- AI Tools: 28 entri
 - AI: 26 entri
-- Developer Tools: 20 entri
+- Developer Tools: 22 entri
 - Diskon: 18 entri
 - Domain: 18 entri
 - Cloud Services: 12 entri
