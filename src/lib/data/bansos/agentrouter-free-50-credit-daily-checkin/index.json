@@ -1,0 +1,28 @@
+{
+	"id": "agentrouter-free-50-credit-daily-checkin",
+	"title": "AgentRouter $50 New User Credit + $25 Daily Check-in",
+	"provider": "AgentRouter",
+	"description": "AgentRouter memberikan $50 AI credit kepada pengguna baru yang mendaftar melalui link referral. Pengguna juga dapat memperoleh $25 credit melalui check-in harian untuk memakai berbagai model AI lewat API.",
+	"benefits": [
+		"$50 AI credit untuk pengguna baru",
+		"$25 AI credit dari check-in harian",
+		"Akses berbagai model AI melalui API"
+	],
+	"validity": {
+		"type": "uncertain",
+		"description": "Kampanye provider diumumkan sampai awal September; tanggal berakhir yang tepat belum diumumkan"
+	},
+	"requirements": [
+		"Daftar sebagai pengguna baru melalui link referral",
+		"Login dan lakukan check-in harian untuk klaim credit",
+		"Gunakan layanan secara wajar dan patuhi larangan akun ganda, otomatisasi abuse, serta penjualan kembali credit"
+	],
+	"ctaLink": "https://agentrouter.org/register?aff=71vb",
+	"tags": ["AI", "AI Credits", "API", "Developer Tools", "Referral"],
+	"status": "active",
+	"featured": false,
+	"publishedAt": "2026-08-21",
+	"tips": "Ketersediaan dan nominal reward dapat berubah; cek pengumuman resmi AgentRouter sebelum klaim.",
+	"source": "https://agentrouter.org/api/status",
+	"contributorSlug": "ikan"
+}

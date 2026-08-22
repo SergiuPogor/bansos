@@ -1,6 +1,6 @@
 {
 	"generatedAt": "2026-08-17",
-	"total": 103,
+	"total": 104,
 	"items": [
 		{
 			"id": "adobe-creative-cloud-pro-trial",
@@ -36,7 +36,7 @@
 			"id": "agentrouter-free-150-credit",
 			"title": "AgentRouter Free $150 AI Credit + $25 Daily Reward",
 			"provider": "AgentRouter",
-			"status": "active",
+			"status": "expired",
 			"tags": ["AI", "AI Credits", "API", "Developer Tools"],
 			"featured": false,
 			"publishedAt": "2026-07-13",
@@ -53,10 +53,20 @@
 			"contributorSlug": "jovian"
 		},
 		{
+			"id": "agentrouter-free-50-credit-daily-checkin",
+			"title": "AgentRouter $50 New User Credit + $25 Daily Check-in",
+			"provider": "AgentRouter",
+			"status": "active",
+			"tags": ["AI", "AI Credits", "API", "Developer Tools", "Referral"],
+			"featured": false,
+			"publishedAt": "2026-08-21",
+			"contributorSlug": "ikan"
+		},
+		{
 			"id": "agentrouter-free-credits",
 			"title": "Free $200 Credit API LLM Populer",
 			"provider": "AgentRouter",
-			"status": "active",
+			"status": "expired",
 			"tags": ["AI Tools", "AI Credits", "API"],
 			"featured": false,
 			"publishedAt": "2026-06-18",

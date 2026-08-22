@@ -7,7 +7,10 @@
 	"links": {
 		"github": "https://github.com/Aldii24"
 	},
-	"contributedBansos": ["freemodel-pro-plan-bonus-referral-ikan"],
+	"contributedBansos": [
+		"agentrouter-free-50-credit-daily-checkin",
+		"freemodel-pro-plan-bonus-referral-ikan"
+	],
 	"hidden": false,
 	"joinedAt": "2026-07-14"
 }

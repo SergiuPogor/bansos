@@ -1,10 +1,10 @@
-# ✅ AgentRouter Free $150 AI Credit + $25 Daily Reward
+# ❌ AgentRouter Free $150 AI Credit + $25 Daily Reward
 
 **Provider:** [AgentRouter](https://agent-router.org)
 
 AgentRouter memberikan bonus AI Credit sebesar $150 untuk pengguna baru yang mendaftar melalui program yang tersedia. Pengguna juga berkesempatan memperoleh tambahan AI Credit harian sesuai ketentuan program. Credit dapat digunakan untuk mengakses berbagai model AI melalui satu API.
 
-> **Status:** Aktif
+> **Status:** Kadaluwarsa
 
 ⏰ **Info Waktu:** Berlaku selama program promosi masih tersedia
 
