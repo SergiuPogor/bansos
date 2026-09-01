@@ -2,17 +2,26 @@
 
 **Provider:** Google
 
-Akses Gemini Paket Mahasiswa selama 1 Tahun Tanpa Biaya. Termasuk fitur belajar lengkap, Gemini Live, dan Cloud Storage 400GB.
+Akses paket Google AI Pro gratis selama 1 tahun untuk mahasiswa yang memenuhi syarat. Paket ini mencakup batas penggunaan Gemini hingga 4x lebih tinggi, penyimpanan cloud 5 TB, Gemini Spark, Gemini Omni, Gemini Live, dan fitur belajar dengan upload materi tanpa batas.
 
 > **Status:** Aktif
 
+> **Info Waktu:** Klaim sebelum 31 Desember 2026; paket gratis berlaku selama 1 tahun
+
 ## Keuntungan
 
-- Fitur Belajar Lengkap,Gemini Live,Limit Pemakaian Lebih Tinggi,Cloud Storage 400 GB,Pembuatan Video
+- Paket Google AI Pro gratis selama 1 tahun untuk mahasiswa yang memenuhi syarat
+- Batas penggunaan Gemini hingga 4x lebih tinggi
+- Penyimpanan cloud 5 TB
+- Akses Gemini Spark, Gemini Omni, dan Gemini Live
+- Upload materi kuliah tanpa batas serta fitur belajar dan pembuatan video
 
 ## Persyaratan
 
-- Pembayaran Menggunakan Akun Kampus / Email Universitas
+- Mahasiswa perguruan tinggi di Amerika Serikat yang memenuhi syarat dan berusia minimal 18 tahun
+- Lulus verifikasi kelayakan mahasiswa setiap tahun
+- Menyediakan metode pembayaran yang valid saat pendaftaran
+- Batalkan sebelum masa uji coba berakhir untuk mencegah tagihan otomatis Rp75.000/bulan (harga dapat berbeda menurut wilayah)
 
 ---
 

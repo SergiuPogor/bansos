@@ -20,9 +20,9 @@
 		"url": "https://github.com/wauputr4/bansos/commit/1a79fd3ce23c3d1d318f09dd3dd23a3b32a9b707"
 	},
 	"agentrouter-free-250-ai-credit": {
-		"hash": "0eaf75c662279087ae9955caf4a11dab1edad25d",
-		"date": "2026-07-13T07:21:11Z",
-		"url": "https://github.com/wauputr4/bansos/commit/0eaf75c662279087ae9955caf4a11dab1edad25d"
+		"hash": "7c64d1be5fc08ee91075b818cbead6a078cfc229",
+		"date": "2026-07-22T17:11:05+07:00",
+		"url": "https://github.com/wauputr4/bansos/commit/7c64d1be5fc08ee91075b818cbead6a078cfc229"
 	},
 	"agentrouter-free-50-credit-daily-checkin": {
 		"hash": "1a79fd3ce23c3d1d318f09dd3dd23a3b32a9b707",
@@ -178,6 +178,11 @@
 		"hash": "50cf8959b23628c12cb1b9ffcc55ba3aea77def9",
 		"date": "2026-06-21T15:46:56+07:00",
 		"url": "https://github.com/wauputr4/bansos/commit/50cf8959b23628c12cb1b9ffcc55ba3aea77def9"
+	},
+	"google-gemini-student": {
+		"hash": "f9bb99dfcef07e722cb2972ac234da88d72259f3",
+		"date": "2026-08-22T02:18:38+07:00",
+		"url": "https://github.com/wauputr4/bansos/commit/f9bb99dfcef07e722cb2972ac234da88d72259f3"
 	},
 	"google-startups-cloud": {
 		"hash": "50cf8959b23628c12cb1b9ffcc55ba3aea77def9",
