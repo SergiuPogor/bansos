@@ -1,9 +1,36 @@
 # bansos.dev — Dataset Lengkap
-> Diperbarui: 2026-08-22 | Total: 103 entri (87 aktif, 16 expired)
+> Diperbarui: 2026-09-13 | Total: 113 entri (95 aktif, 18 expired)
 
 ---
 
 ## ✅ Entri Aktif
+
+### 1412's API — Pendaftaran GitHub Terbuka
+
+- **ID:** `1412-api-github-registration`
+- **Provider:** 1412's API
+- **Kategori:** API, AI Tools, Developer Tools, GitHub OAuth, Referral
+- **Status:** active
+
+**Deskripsi:** 1412's API adalah gateway API berbasis New API. Status publik pada 10 September 2026 menyatakan pendaftaran akun baru aktif dan autentikasi GitHub tersedia, sedangkan pendaftaran dengan password dimatikan. Tautan ini menyertakan kode afiliasi PWW7, tetapi situs tidak mempublikasikan besaran kredit atau bonus referral sehingga tidak diklaim sebagai benefit.
+
+**Benefit:**
+- Pendaftaran akun baru melalui GitHub OAuth
+- Akses dashboard untuk membuat dan mengelola API key setelah akun dibuat
+- Fitur check-in tercantum aktif pada status publik, tanpa nominal hadiah yang dipublikasikan
+
+**Cara Klaim:**
+1. Punya akun GitHub
+2. Masuk atau daftar melalui GitHub OAuth
+3. Gunakan tautan pendaftaran dengan kode afiliasi PWW7 bila ingin mendukung referral kontributor
+
+- **CTA Link:** https://napi.kid1412.qzz.io/sign-up?aff=PWW7
+- **Sumber:** https://napi.kid1412.qzz.io/api/status
+- **Berlaku:** uncertain (Diverifikasi aktif melalui endpoint status publik pada 10 September 2026; ketersediaan dan kebijakan dapat berubah sewaktu-waktu)
+
+🔗 **Link Detail:** https://bansos.dev/list/1412-api-github-registration/
+
+---
 
 ### Adobe Creative Cloud Pro Rp0 | Free Trial 4 Month
 
@@ -57,57 +84,59 @@
 
 ---
 
-### AgentRouter Free $150 AI Credit + $25 Daily Reward
+### AgentRouter $50 New User Credit + $25 Daily Check-in
 
-- **ID:** `agentrouter-free-150-credit`
+- **ID:** `agentrouter-free-50-credit-daily-checkin`
 - **Provider:** AgentRouter
-- **Website Provider:** https://agent-router.org
-- **Kategori:** AI, AI Credits, API, Developer Tools
+- **Kategori:** AI, AI Credits, API, Developer Tools, Referral
 - **Status:** active
 
-**Deskripsi:** AgentRouter memberikan bonus AI Credit sebesar $150 untuk pengguna baru yang mendaftar melalui program yang tersedia. Pengguna juga berkesempatan memperoleh tambahan AI Credit harian sesuai ketentuan program. Credit dapat digunakan untuk mengakses berbagai model AI melalui satu API.
+**Deskripsi:** AgentRouter memberikan $50 AI credit kepada pengguna baru yang mendaftar melalui link referral. Pengguna juga dapat memperoleh $25 credit melalui check-in harian untuk memakai berbagai model AI lewat API.
 
 **Benefit:**
-- $150 AI Credit untuk pengguna baru
-- Tambahan $25 AI Credit setiap hari
-- Akses berbagai model AI populer melalui satu API
+- $50 AI credit untuk pengguna baru
+- $25 AI credit dari check-in harian
+- Akses berbagai model AI melalui API
 
 **Cara Klaim:**
-1. Memiliki akun GitHub (disarankan akun lama/old account)
-2. Mendaftar melalui halaman registrasi AgentRouter
-3. Login dan klaim bonus sesuai ketentuan yang berlaku
+1. Daftar sebagai pengguna baru melalui link referral
+2. Login dan lakukan check-in harian untuk klaim credit
+3. Gunakan layanan secara wajar dan patuhi larangan akun ganda, otomatisasi abuse, serta penjualan kembali credit
 
-- **CTA Link:** https://agentrouter.org/register?aff=txsb
-- **Sumber:** https://agentrouter.org/register?aff=txsb
-- **Tips:** Gunakan akun GitHub yang aktif dan hindari membuat akun ganda agar tetap sesuai Terms of Service
-- **Berlaku:** uncertain (Berlaku selama program promosi masih tersedia)
+- **CTA Link:** https://agentrouter.org/register?aff=71vb
+- **Sumber:** https://agentrouter.org/api/status
+- **Tips:** Ketersediaan dan nominal reward dapat berubah; cek pengumuman resmi AgentRouter sebelum klaim.
+- **Berlaku:** uncertain (Kampanye provider diumumkan sampai awal September; tanggal berakhir yang tepat belum diumumkan)
 
-🔗 **Link Detail:** https://bansos.dev/list/agentrouter-free-150-credit/
+🔗 **Link Detail:** https://bansos.dev/list/agentrouter-free-50-credit-daily-checkin/
 
 ---
 
-### Free $200 Credit API LLM Populer
+### AI-Family API — Pendaftaran Terbuka dan Check-in
 
-- **ID:** `agentrouter-free-credits`
-- **Provider:** AgentRouter
-- **Kategori:** AI Tools, AI Credits, API
+- **ID:** `ai-family-api-registration-checkin-referral`
+- **Provider:** AI-Family
+- **Kategori:** API, AI Tools, Developer Tools, Free Tier, Check-in, Referral
 - **Status:** active
 
-**Deskripsi:** Langsung dapat $200 setelah mendaftar.
-
-Tersedia 10 model LLM yang bisa digunakan melalui API key.
+**Deskripsi:** AI-Family adalah gateway API berbasis New API. Status publik pada 10 September 2026 menunjukkan pendaftaran akun baru serta registrasi password aktif, verifikasi email diaktifkan, dan fitur check-in tersedia. Situs juga mengumumkan bahwa akun wajib mengaktifkan 2FA. Tautan ini menyertakan kode afiliasi S6g5, tetapi sumber publik tidak menyebut nominal kredit atau bonus referral sehingga tidak diklaim sebagai benefit.
 
 **Benefit:**
-- Free Signup Credits
+- Pendaftaran akun baru melalui email dan password
+- Fitur check-in tersedia di dashboard
+- Akses endpoint API utama https://api.aifamily.vip/v1 setelah membuat akun dan API key
 
 **Cara Klaim:**
-1. Daftar akun
+1. Mendaftar dengan email dan password
+2. Menyelesaikan verifikasi email
+3. Mengaktifkan 2FA pada pengaturan keamanan akun
+4. Gunakan tautan referral bila ingin mendukung kontributor
 
-- **CTA Link:** https://agentrouter.org/register?aff=qdG1
-- **Sumber:** https://agentrouter.org/register?aff=qdG1
-- **Berlaku:** forever
+- **CTA Link:** https://api.aifamily.vip/sign-up?aff=S6g5
+- **Sumber:** https://api.aifamily.vip/api/status
+- **Berlaku:** uncertain (Pendaftaran dan check-in diverifikasi aktif dari endpoint status publik pada 10 September 2026; kuota serta kebijakan dapat berubah)
 
-🔗 **Link Detail:** https://bansos.dev/list/agentrouter-free-credits/
+🔗 **Link Detail:** https://bansos.dev/list/ai-family-api-registration-checkin-referral/
 
 ---
 
@@ -544,6 +573,30 @@ Tersedia 10 model LLM yang bisa digunakan melalui API key.
 
 ---
 
+### Free Trial 3 Bulan DCloud XPlore
+
+- **ID:** `dcloud-xplore-free-trial`
+- **Provider:** DCloud
+- **Kategori:** Cloud Services, Free Trial, Hosting
+- **Status:** active
+
+**Deskripsi:** Solusi cloud lebih maksimal dengan Free Trial 3 bulan dari DCloud. Berlaku untuk seluruh pelanggan (baru & existing) hingga 31 Desember 2026. Penawaran dapat diklaim melalui Sales DCloud.
+
+**Benefit:**
+- Free Trial 3 Bulan semua layanan DCloud (exclude GPU L40S, Domain, & DMail)
+
+**Cara Klaim:**
+1. Klaim melalui Sales DCloud
+2. Pelanggan existing hanya untuk layanan yang belum pernah digunakan
+3. Tanpa Managed Service / Lisensi OS
+
+- **CTA Link:** https://dcloud.co.id/promo-dcloud-xplore-2026.html
+- **Berlaku:** fixed — 2026-12-31
+
+🔗 **Link Detail:** https://bansos.dev/list/dcloud-xplore-free-trial/
+
+---
+
 ### DigitalOcean Hatch (Kredit Cloud hingga $100.000)
 
 - **ID:** `digitalocean-hatch`
@@ -794,6 +847,36 @@ Tersedia 10 model LLM yang bisa digunakan melalui API key.
 - **Berlaku:** uncertain (Berlaku selama promosi berlangsung)
 
 🔗 **Link Detail:** https://bansos.dev/list/google-ai-pro-4-bulan/
+
+---
+
+### Google Gemini Paket Mahasiswa 1 Tahun Tanpa Biaya
+
+- **ID:** `google-gemini-student`
+- **Provider:** Google
+- **Kategori:** AI, Cloud Services, Gratisan, Mahasiswa
+- **Status:** active
+
+**Deskripsi:** Google menyediakan paket Google AI Pro gratis selama 1 tahun untuk mahasiswa yang memenuhi syarat. Paket ini mencakup batas penggunaan Gemini hingga 4x lebih tinggi, penyimpanan cloud 5 TB, Gemini Spark, Gemini Omni, Gemini Live, dan fitur belajar dengan upload materi tanpa batas.
+
+**Benefit:**
+- Paket Google AI Pro gratis selama 1 tahun untuk mahasiswa yang memenuhi syarat
+- Batas penggunaan Gemini hingga 4x lebih tinggi
+- Penyimpanan cloud 5 TB
+- Akses Gemini Spark, Gemini Omni, dan Gemini Live
+- Upload materi kuliah tanpa batas serta fitur belajar dan pembuatan video
+
+**Cara Klaim:**
+1. Mahasiswa perguruan tinggi di Amerika Serikat yang memenuhi syarat dan berusia minimal 18 tahun
+2. Lulus verifikasi kelayakan mahasiswa setiap tahun
+3. Menyediakan metode pembayaran yang valid saat pendaftaran
+4. Batalkan sebelum masa uji coba berakhir untuk mencegah tagihan otomatis Rp75.000/bulan (harga dapat berbeda menurut wilayah)
+
+- **CTA Link:** https://gemini.google/students/
+- **Sumber:** https://gemini.google/students/
+- **Berlaku:** fixed — 2026-12-31 (Klaim sebelum 31 Desember 2026; paket gratis berlaku selama 1 tahun)
+
+🔗 **Link Detail:** https://bansos.dev/list/google-gemini-student/
 
 ---
 
@@ -1386,6 +1469,94 @@ Tersedia 10 model LLM yang bisa digunakan melalui API key.
 - **Berlaku:** forever (Selamanya)
 
 🔗 **Link Detail:** https://bansos.dev/list/kimchi-dev-serverless-ai/
+
+---
+
+### Kira AI — 50.000 Token Gratis untuk Anggota Baru
+
+- **ID:** `kira-ai-free-50000-tokens-referral`
+- **Provider:** Kira AI
+- **Kategori:** AI Credits, API, AI Tools, Free Tier, Developer Tools, Referral
+- **Status:** active
+
+**Deskripsi:** Kira AI menyediakan ekosistem AI dengan chat, pembuatan gambar, suara, video, dan API yang kompatibel dengan SDK OpenAI. Paket uji coba gratisnya tercantum seharga 0đ dan memberi 50.000 token bagi anggota yang baru mendaftar. Tautan ini memuat referral syafiifahrezaid, tetapi situs tidak menyebut bonus atau nominal benefit referral, sehingga tidak dihitung sebagai keuntungan tambahan.
+
+**Benefit:**
+- 50.000 token gratis saat mendaftar sebagai anggota baru
+- Akses fitur Chat AI, pembuatan gambar, dan suara pada paket uji coba
+- Base URL API OpenAI-compatible: https://kiraai.vn/api/v1
+
+**Cara Klaim:**
+1. Membuat akun Kira AI
+2. Pakai paket uji coba gratis
+3. Gunakan tautan referral bila ingin mendukung kontributor
+
+- **CTA Link:** https://kiraai.vn/?ref=syafiifahrezaid
+- **Sumber:** https://kiraai.vn/
+- **Berlaku:** uncertain (Paket gratis dan alokasi 50.000 token diverifikasi dari halaman resmi pada 10 September 2026; kuota dan ketentuan dapat berubah)
+
+🔗 **Link Detail:** https://bansos.dev/list/kira-ai-free-50000-tokens-referral/
+
+---
+
+### KKtoken AI Free $75 Credit + $25 Bonus Referral
+
+- **ID:** `kktoken-free-75-credit-bonus-referral`
+- **Provider:** KKtoken AI
+- **Kategori:** AI Credits, API, AI Tools, Free Tier, Developer Tools, Referral
+- **Status:** active
+
+**Deskripsi:** KKtoken AI adalah gateway API berbasis New API di kktoken.cc yang memberi kredit $75 untuk setiap akun baru, ditambah $25 bila mendaftar memakai kode undangan. Pendaftaran hanya lewat GitHub OAuth karena jalur email dan password dimatikan. Dari log dashboard akun kontributor, permintaan ke claude-opus-5 ditagih dengan tarif rata $1 per satu juta token, baik input maupun output, dan check-in di dashboard menambah kredit; pada sampel 28 Agustus 2026 tercatat $20. Daftar harga dan katalog model hanya terbuka untuk akun yang sudah masuk, jadi keduanya tidak bisa diperiksa sebelum mendaftar.
+
+**Benefit:**
+- Kredit $75 untuk semua akun baru
+- Tambahan $25 bila mendaftar lewat kode undangan
+- Check-in di dashboard menambah kredit; pada sampel akun kontributor tercatat $20
+- Tarif rata $1 per satu juta token untuk input maupun output
+- Akses claude-opus-5 sebagaimana tercatat pada log penggunaan akun kontributor
+
+**Cara Klaim:**
+1. Punya akun GitHub
+2. Mendaftar lewat GitHub OAuth di kktoken.cc karena pendaftaran email atau password dimatikan
+3. Menyelesaikan verifikasi Cloudflare Turnstile saat mendaftar
+4. Memakai tautan undangan agar mendapat tambahan $25
+5. Membuat API key di dashboard lalu arahkan klien ke https://kktoken.cc
+
+- **CTA Link:** https://kktoken.cc/sign-up?aff=9f8n
+- **Sumber:** https://kktoken.cc/
+- **Tips:** Prompt caching tidak didiskon: pada log akun kontributor, tagihan empat permintaan sama persis dengan jumlah token input dan output dikali $1 per satu juta, jadi konteks panjang dibayar penuh setiap giliran. Situs belum memuat syarat layanan maupun kebijakan privasi, halaman pemantauan uptime-nya kosong, dan domainnya baru terdaftar 23 Agustus 2026. Daftar harga dan katalog model baru bisa dilihat setelah masuk akun.
+- **Berlaku:** uncertain (Domain baru terdaftar 23 Agustus 2026 dan situs belum memuat syarat layanan; ketersediaan serta besaran kredit mengikuti kebijakan KKtoken AI)
+
+🔗 **Link Detail:** https://bansos.dev/list/kktoken-free-75-credit-bonus-referral/
+
+---
+
+### Liminality API - Check-in Harian Gratis dan Akses API OpenAI-Compatible
+
+- **ID:** `liminality-free-checkin`
+- **Provider:** Liminality
+- **Kategori:** AI Credits, API, AI Tools, Free Tier, Developer Tools
+- **Status:** active
+
+**Deskripsi:** Liminality API (beizhi.sylu.cc) adalah aggregator model berbasis NewAPI yang dikelola personal. Sumber resminya menawarkan check-in harian untuk mendapatkan kredit gratis, bonus undangan dua arah, dan akses melalui format API OpenAI-compatible. Sumber tersebut tidak merinci nominal kredit maupun seluruh model dan harga, sehingga katalog serta ketentuannya perlu dicek langsung dan dapat berubah. Registrasi menggunakan email mainstream (contoh @qq.com), dengan batas frekuensi 15 request per menit; layanan ini tidak cocok untuk agent atau otomasi frekuensi tinggi dan tidak menawarkan SLA produksi.
+
+**Benefit:**
+- Check-in harian untuk mendapatkan kredit gratis tanpa pembayaran
+- Bonus undangan dua arah untuk pengundang dan pengguna yang diundang
+- Akses model melalui format API yang kompatibel dengan OpenAI
+- Registrasi menerima email mainstream, contohnya email @qq.com
+- Penggunaan personal ringan dengan batas 15 request per menit dan tanpa SLA produksi
+
+**Cara Klaim:**
+1. Registrasi menggunakan email mainstream yang diterima situs (contoh @qq.com)
+2. Batas frekuensi 15 request per menit; tidak untuk agent, otomasi, atau tugas frekuensi tinggi
+3. Layanan dikelola personal tanpa SLA; tidak disarankan untuk produksi
+
+- **CTA Link:** https://beizhi.sylu.cc/sign-up?aff=tmRs
+- **Sumber:** https://beizhi.sylu.cc/api/notice
+- **Berlaku:** uncertain (Notice resmi bertanggal 13 Juli 2026 tidak mencantumkan tanggal penutupan; kredit, limit, katalog model, dan ketentuan dapat berubah sewaktu-waktu)
+
+🔗 **Link Detail:** https://bansos.dev/list/liminality-free-checkin/
 
 ---
 
@@ -2040,6 +2211,35 @@ Berlaku sampai tanggal 28 Juni 2026
 
 ---
 
+### TokenForge Free Beta - Kredit Promosi dan Akses GLM-5.2 & Grok 4.5
+
+- **ID:** `tokenforge-free-beta`
+- **Provider:** TokenForge
+- **Kategori:** AI Credits, API, AI Tools, Free Tier, Developer Tools
+- **Status:** active
+
+**Deskripsi:** TokenForge adalah gateway AI yang kompatibel dengan OpenAI dan sedang membuka controlled free beta. Halaman resminya menyebut akun baru menerima kredit promosi tanpa checkout atau penagihan aktif. Pricing Explorer saat ini mencantumkan 100 request per hari, 100.000 token per hari, serta akses GLM-5.2 dan Grok 4.5. Namun dokumentasi request admission menyebut platform tidak menerapkan batas harian, per menit, atau konkuren; karena ada perbedaan keterangan resmi, kuota aktual perlu dicek di dashboard sebelum digunakan. Tarif kredit mengikuti rate upstream yang ditautkan ditambah platform charge transparan 3,5 kali.
+
+**Benefit:**
+- Controlled free beta dengan kredit promosi untuk akun baru; tidak ada checkout maupun penagihan aktif
+- Pricing Explorer saat ini mencantumkan 100 request per hari dan 100.000 token per hari; cek dashboard karena dokumentasi resmi juga menyebut tidak ada batas platform
+- Akses model GLM-5.2 dan Grok 4.5 lewat satu endpoint kompatibel OpenAI
+- Katalog model teks yang dipublikasikan di halaman resmi, dengan ketersediaan yang dapat berubah
+- Tarif kredit per rute mengikuti tarif upstream resmi yang ditautkan plus platform charge transparan 3,5 kali
+
+**Cara Klaim:**
+1. Sign-in wajib memakai akun GitHub karena itu satu-satunya metode login
+2. Akun GitHub minimal berumur 14 hari dan memakai alamat email permanen yang sudah terverifikasi
+3. Pricing Explorer mencantumkan 100 request dan 100.000 token per hari, tetapi dokumentasi request admission menyebut tidak ada batas platform; ikuti keterangan dashboard terbaru
+
+- **CTA Link:** https://tokengate-cqt9ivzs.manus.space/sign-up?aff=1rir
+- **Sumber:** https://tokengate-cqt9ivzs.manus.space/pricing
+- **Berlaku:** uncertain (Controlled free beta tanpa tanggal akhir yang diumumkan; halaman pricing dan dokumentasi resmi berbeda dalam menjelaskan batas request, sehingga kuota aktual perlu dikonfirmasi sebelum digunakan)
+
+🔗 **Link Detail:** https://bansos.dev/list/tokenforge-free-beta/
+
+---
+
 ### TokenGO API Inference Free $5 Credits
 
 - **ID:** `tokengo-inference-api`
@@ -2278,6 +2478,28 @@ Berlaku sampai tanggal 28 Juni 2026
 - **Berlaku:** uncertain (Kredit gratis dapat kedaluwarsa kapan saja sesuai kebijakan Vyce AI (Ketentuan Layanan pasal 6))
 
 🔗 **Link Detail:** https://bansos.dev/list/vyce-ai-free-40-credit/
+
+---
+
+### Wasmer Pro 3 Bulan Tanpa Kartu Kredit
+
+- **ID:** `wasmer-pro`
+- **Provider:** Wasmer
+- **Kategori:** Cloud Services, Hosting, Gratisan
+- **Status:** active
+
+**Deskripsi:** Gratis 3 Bulan Wasmer Pro tanpa kartu kredit. Masukkan kode WORDCAMP2026-PHX saat pendaftaran.
+
+**Benefit:**
+- 10 apps,1 Juta request/bulan,1 TB bandwidth,Backup harian + log 30 hari,Support WordPress Node.js Python Rust
+
+**Cara Klaim:**
+1. Gunakan kode promo: WORDCAMP2026-PHX
+
+- **CTA Link:** https://wasmer.io/
+- **Berlaku:** uncertain
+
+🔗 **Link Detail:** https://bansos.dev/list/wasmer-pro/
 
 ---
 
@@ -2545,6 +2767,35 @@ Berlaku sampai tanggal 28 Juni 2026
 
 ---
 
+### AgentRouter Free $150 AI Credit + $25 Daily Reward
+
+- **ID:** `agentrouter-free-150-credit`
+- **Provider:** AgentRouter
+- **Website Provider:** https://agent-router.org
+- **Kategori:** AI, AI Credits, API, Developer Tools
+- **Status:** expired
+
+**Deskripsi:** AgentRouter memberikan bonus AI Credit sebesar $150 untuk pengguna baru yang mendaftar melalui program yang tersedia. Pengguna juga berkesempatan memperoleh tambahan AI Credit harian sesuai ketentuan program. Credit dapat digunakan untuk mengakses berbagai model AI melalui satu API.
+
+**Benefit:**
+- $150 AI Credit untuk pengguna baru
+- Tambahan $25 AI Credit setiap hari
+- Akses berbagai model AI populer melalui satu API
+
+**Cara Klaim:**
+1. Memiliki akun GitHub (disarankan akun lama/old account)
+2. Mendaftar melalui halaman registrasi AgentRouter
+3. Login dan klaim bonus sesuai ketentuan yang berlaku
+
+- **CTA Link:** https://agentrouter.org/register?aff=txsb
+- **Sumber:** https://agentrouter.org/register?aff=txsb
+- **Tips:** Gunakan akun GitHub yang aktif dan hindari membuat akun ganda agar tetap sesuai Terms of Service
+- **Berlaku:** uncertain (Berlaku selama program promosi masih tersedia)
+
+🔗 **Link Detail:** https://bansos.dev/list/agentrouter-free-150-credit/
+
+---
+
 ### AgentRouter Free $250 AI Credit
 
 - **ID:** `agentrouter-free-250-ai-credit`
@@ -2571,6 +2822,31 @@ Berlaku sampai tanggal 28 Juni 2026
 - **Berlaku:** uncertain
 
 🔗 **Link Detail:** https://bansos.dev/list/agentrouter-free-250-ai-credit/
+
+---
+
+### Free $200 Credit API LLM Populer
+
+- **ID:** `agentrouter-free-credits`
+- **Provider:** AgentRouter
+- **Kategori:** AI Tools, AI Credits, API
+- **Status:** expired
+
+**Deskripsi:** Langsung dapat $200 setelah mendaftar.
+
+Tersedia 10 model LLM yang bisa digunakan melalui API key.
+
+**Benefit:**
+- Free Signup Credits
+
+**Cara Klaim:**
+1. Daftar akun
+
+- **CTA Link:** https://agentrouter.org/register?aff=qdG1
+- **Sumber:** https://agentrouter.org/register?aff=qdG1
+- **Berlaku:** forever
+
+🔗 **Link Detail:** https://bansos.dev/list/agentrouter-free-credits/
 
 ---
 
