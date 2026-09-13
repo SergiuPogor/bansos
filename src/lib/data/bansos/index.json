@@ -1,6 +1,6 @@
 {
 	"generatedAt": "2026-08-17",
-	"total": 109,
+	"total": 110,
 	"items": [
 		{
 			"id": "adobe-creative-cloud-pro-trial",
@@ -231,6 +231,16 @@
 			"featured": false,
 			"publishedAt": "2026-06-13",
 			"contributorSlug": "dahono-labs"
+		},
+		{
+			"id": "dcloud-xplore-free-trial",
+			"title": "Free Trial 3 Bulan DCloud XPlore",
+			"provider": "DCloud",
+			"status": "active",
+			"tags": ["Cloud Services", "Free Trial", "Hosting"],
+			"featured": false,
+			"publishedAt": "2026-09-01",
+			"contributorSlug": "rifaldo-dev"
 		},
 		{
 			"id": "deepseek-free-token",
