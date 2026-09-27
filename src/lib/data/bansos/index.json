@@ -1,6 +1,6 @@
 {
 	"generatedAt": "2026-09-27",
-	"total": 116,
+	"total": 118,
 	"items": [
 		{
 			"id": "1412-api-github-registration",
@@ -428,6 +428,16 @@
 			"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools"],
 			"featured": false,
 			"publishedAt": "2026-07-29",
+			"contributorSlug": "rafly0078"
+		},
+		{
+			"id": "gurouter-free-credit-model-gratis",
+			"title": "GuRouter Free $0.2 Credit + Model Gratis $0",
+			"provider": "GuRouter",
+			"status": "active",
+			"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools"],
+			"featured": false,
+			"publishedAt": "2026-09-19",
 			"contributorSlug": "rafly0078"
 		},
 		{
@@ -928,6 +938,16 @@
 			"featured": false,
 			"publishedAt": "2026-06-21",
 			"contributorSlug": "devers"
+		},
+		{
+			"id": "starbridge-free-24-yuan-api-credit",
+			"title": "StarBridge Free ¥24 API Credit + Check-in Harian",
+			"provider": "StarBridge",
+			"status": "active",
+			"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools", "No Credit Card"],
+			"featured": false,
+			"publishedAt": "2026-09-19",
+			"contributorSlug": "rafly0078"
 		},
 		{
 			"id": "subdomain-gratis-permanen-untuk-developer-pelajar-dari-digitalplat",

@@ -1,5 +1,5 @@
 # bansos.dev — Dataset Lengkap
-> Diperbarui: 2026-09-27 | Total: 116 entri (98 aktif, 18 expired)
+> Diperbarui: 2026-09-27 | Total: 118 entri (100 aktif, 18 expired)
 
 ---
 
@@ -958,6 +958,38 @@
 - **Berlaku:** uncertain
 
 🔗 **Link Detail:** https://bansos.dev/list/gumloop-free-credits/
+
+---
+
+### GuRouter Free $0.2 Credit + Model Gratis $0
+
+- **ID:** `gurouter-free-credit-model-gratis`
+- **Provider:** GuRouter
+- **Kategori:** AI Credits, API, AI Tools, Free Tier, Developer Tools
+- **Status:** active
+
+**Deskripsi:** GuRouter adalah AI gateway kompatibel OpenAI dari operator Vietnam dengan 38 model. Akun baru dapat kredit $0.2 yang tetap kepakai karena harga banyak modelnya di bawah $0.1 per 1 juta token, ditambah tiga model gratis $0 di grup default dan check-in harian untuk menambah saldo. Base URL-nya bisa langsung dipasang di Cline, Roo Code, Continue, Aider, atau tool lain yang mendukung OpenAI Compatible.
+
+**Benefit:**
+- Kredit awal $0.2 untuk akun baru lewat link referral
+- Tiga model gratis $0 di grup default: meituan/LongCat-2.0:free, inclusionai/ling-3.0-flash-sante:free, dan poolside/laguna-s-2.1-free
+- Check-in harian aktif untuk menambah saldo
+- Harga model murah, banyak di bawah $0.1 per 1 juta token (contoh Qwen3.7-Flash rasio 0.015 dan glm-5.3-flash rasio 0.025)
+- 38 model tersedia: cx/gpt-6-astra, cx/gpt-5.6 Sol, Luna, Terra, google/gemini-3.8-flash, deepseek-v4 dan v4.1-flash, Kimi K2.5 sampai K2.7-Code, GLM-5 sampai 5.3, Qwen3.6 sampai 3.8, serta MiniMax M2.5 dan M3
+- Grup berbayar punya diskon: pro -55 persen, vip -50 persen, subscriber -40 persen, dan vibecode unlimited per hari
+- Endpoint kompatibel OpenAI dan Gemini, plus dokumentasi serta blog resmi
+
+**Cara Klaim:**
+1. Daftar pakai email dan password dengan verifikasi email, atau login akun GitHub
+2. Lolos verifikasi Cloudflare Turnstile saat mendaftar
+3. Daftar lewat link referral supaya kredit awal masuk
+4. Dukungan hanya lewat Discord dan Zalo resmi, bukan SLA enterprise
+
+- **CTA Link:** https://gurouter.com/sign-up?aff=fMKL
+- **Sumber:** https://gurouter.com/pricing
+- **Berlaku:** uncertain (Tidak ada tanggal berakhir yang diumumkan; besaran kredit, daftar model, dan harga mengikuti kebijakan GuRouter)
+
+🔗 **Link Detail:** https://bansos.dev/list/gurouter-free-credit-model-gratis/
 
 ---
 
@@ -2149,6 +2181,38 @@ Berlaku sampai tanggal 28 Juni 2026
 - **Berlaku:** uncertain
 
 🔗 **Link Detail:** https://bansos.dev/list/servernusa-free-xiaomi-mimo/
+
+---
+
+### StarBridge Free ¥24 API Credit + Check-in Harian
+
+- **ID:** `starbridge-free-24-yuan-api-credit`
+- **Provider:** StarBridge
+- **Kategori:** AI Credits, API, AI Tools, Free Tier, Developer Tools, No Credit Card
+- **Status:** active
+
+**Deskripsi:** StarBridge (api.careke.cn) adalah relay API AI nirlaba yang dibiayai sendiri oleh pemiliknya untuk pelajar, developer indie, dan peneliti. Akun baru mendapat kredit ¥24 dan bisa menambah kuota lewat check-in harian. Endpoint-nya kompatibel OpenAI, Anthropic, dan Gemini dengan model seperti Gemini 3.8 Flash High, GPT-6 Astra, dan Claude Sonnet 4.6.
+
+**Benefit:**
+- Kredit awal ¥24 untuk akun baru (saldo ditampilkan dalam CNY)
+- Check-in harian aktif untuk menambah kuota gratis
+- Model tersedia: Gemini 3.8/3.7/3.6 Flash High, Gemini 3.1 Pro Low, Gemini 3.1 Flash Image, GPT-5.5, GPT-5.6 Luna/Sol/Terra, GPT-6 Astra, dan Claude Sonnet 4.6
+- Grup codex dihitung rasio 0.5 alias setengah harga dibanding grup gemini dan claude
+- Endpoint kompatibel OpenAI (/v1/chat/completions), Anthropic (/v1/messages), dan Gemini (/v1beta)
+- Tanpa verifikasi email, cukup login akun GitHub
+
+**Cara Klaim:**
+1. Daftar dan login hanya lewat akun GitHub karena registrasi email dan password dimatikan
+2. Lolos verifikasi Cloudflare Turnstile saat mendaftar
+3. Khusus belajar, uji coba, dan riset: dilarang jual beli komersial, registrasi massal, atau script farming
+4. Bukan layanan ber-SLA, jangan dipakai untuk produksi atau beban kerja penting
+5. Sebagian model dibatasi jumlahnya, uji sendiri ketersediaannya
+
+- **CTA Link:** https://api.careke.cn/sign-up?aff=BI4m
+- **Sumber:** https://api.careke.cn/about
+- **Berlaku:** uncertain (Proyek nirlaba tanpa tanggal berakhir; operator sempat menutup registrasi pengguna baru lalu membukanya kembali lewat pengumuman 18 September 2026)
+
+🔗 **Link Detail:** https://bansos.dev/list/starbridge-free-24-yuan-api-credit/
 
 ---
 
