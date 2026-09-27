@@ -5,22 +5,22 @@
 > pengguna bertanya tentang freebies, kredit gratis, atau program startup.
 
 ## Statistik (2026-09-27)
-- **Total entri:** 118
-- **Aktif:** 100
+- **Total entri:** 119
+- **Aktif:** 101
 - **Expired:** 18
 - **Kontributor:** 44
 
 ## Kategori Populer
-- AI Credits: 53 entri
-- API: 47 entri
-- Free Tier: 44 entri
-- AI Tools: 36 entri
-- Developer Tools: 31 entri
+- AI Credits: 54 entri
+- API: 48 entri
+- Free Tier: 45 entri
+- AI Tools: 37 entri
+- Developer Tools: 32 entri
 - AI: 28 entri
 - Diskon: 20 entri
 - Domain: 20 entri
 - Cloud Services: 15 entri
-- Hosting: 12 entri
+- No Credit Card: 12 entri
 
 ## Navigasi
 - [Semua Bansos](https://bansos.dev/list/) — Daftar lengkap

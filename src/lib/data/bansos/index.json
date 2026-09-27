@@ -1,6 +1,6 @@
 {
 	"generatedAt": "2026-09-27",
-	"total": 118,
+	"total": 119,
 	"items": [
 		{
 			"id": "1412-api-github-registration",
@@ -888,6 +888,16 @@
 			"featured": false,
 			"publishedAt": "2026-08-02",
 			"contributorSlug": "sitequ-digital-indonesia"
+		},
+		{
+			"id": "qianxing-ai-free-2-credit",
+			"title": "QianXing AI Free $2 API Credit + Check-in Harian",
+			"provider": "QianXing AI",
+			"status": "active",
+			"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools", "No Credit Card"],
+			"featured": false,
+			"publishedAt": "2026-09-19",
+			"contributorSlug": "rafly0078"
 		},
 		{
 			"id": "qoder-qwen-38-max-free",
