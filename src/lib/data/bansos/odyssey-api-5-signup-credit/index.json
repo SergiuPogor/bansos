@@ -1,0 +1,27 @@
+{
+	"id": "odyssey-api-5-signup-credit",
+	"title": "Kredit API Gratis $5 Saat Daftar di Odyssey",
+	"provider": "Odyssey",
+	"description": "Odyssey menyediakan kredit API senilai $5 untuk pengguna baru yang mendaftar. Informasi resmi menyebutkan kartu pembayaran tidak diperlukan untuk mendapatkan kredit saat pendaftaran.",
+	"benefits": [
+		"Kredit API senilai $5 untuk pengguna baru",
+		"Tidak memerlukan kartu pembayaran saat mendaftar",
+		"Kredit yang sudah diperoleh tidak memiliki tanggal kedaluwarsa menurut halaman harga Odyssey"
+	],
+	"requirements": [
+		"Buat akun Odyssey baru",
+		"Kredit promosi dibatasi satu akun per jaringan; jangan membuat akun tambahan untuk memperoleh kredit sign-up lagi",
+		"Periksa ketentuan promosi yang berlaku pada saat pendaftaran"
+	],
+	"validity": {
+		"type": "uncertain",
+		"description": "Ketersediaan kredit pendaftaran dapat berubah. Odyssey menyatakan kredit yang sudah diperoleh tidak kedaluwarsa."
+	},
+	"ctaLink": "https://odysseyapi.tech/pricing",
+	"tags": ["AI Credits", "API", "LLM"],
+	"status": "active",
+	"featured": false,
+	"publishedAt": "2026-09-15",
+	"source": "https://odysseyapi.tech/pricing",
+	"contributorSlug": "rafly0078"
+}

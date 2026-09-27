@@ -1,6 +1,6 @@
 {
-	"generatedAt": "2026-09-15",
-	"total": 115,
+	"generatedAt": "2026-09-27",
+	"total": 116,
 	"items": [
 		{
 			"id": "1412-api-github-registration",
@@ -828,6 +828,16 @@
 			"featured": false,
 			"publishedAt": "2026-06-15",
 			"contributorSlug": "rizkysiregar23"
+		},
+		{
+			"id": "odyssey-api-5-signup-credit",
+			"title": "Kredit API Gratis $5 Saat Daftar di Odyssey",
+			"provider": "Odyssey",
+			"status": "active",
+			"tags": ["AI Credits", "API", "LLM"],
+			"featured": false,
+			"publishedAt": "2026-09-15",
+			"contributorSlug": "rafly0078"
 		},
 		{
 			"id": "opencode-go-free-5-credit",

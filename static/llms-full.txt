@@ -1,5 +1,5 @@
 # bansos.dev — Dataset Lengkap
-> Diperbarui: 2026-09-15 | Total: 115 entri (97 aktif, 18 expired)
+> Diperbarui: 2026-09-27 | Total: 116 entri (98 aktif, 18 expired)
 
 ---
 
@@ -1920,6 +1920,33 @@
 - **Berlaku:** uncertain (Durasi promo mengikuti postingan Threads dan bisa berubah sewaktu-waktu)
 
 🔗 **Link Detail:** https://bansos.dev/list/notion-ai-unlimited-1-bulan/
+
+---
+
+### Kredit API Gratis $5 Saat Daftar di Odyssey
+
+- **ID:** `odyssey-api-5-signup-credit`
+- **Provider:** Odyssey
+- **Kategori:** AI Credits, API, LLM
+- **Status:** active
+
+**Deskripsi:** Odyssey menyediakan kredit API senilai $5 untuk pengguna baru yang mendaftar. Informasi resmi menyebutkan kartu pembayaran tidak diperlukan untuk mendapatkan kredit saat pendaftaran.
+
+**Benefit:**
+- Kredit API senilai $5 untuk pengguna baru
+- Tidak memerlukan kartu pembayaran saat mendaftar
+- Kredit yang sudah diperoleh tidak memiliki tanggal kedaluwarsa menurut halaman harga Odyssey
+
+**Cara Klaim:**
+1. Buat akun Odyssey baru
+2. Kredit promosi dibatasi satu akun per jaringan; jangan membuat akun tambahan untuk memperoleh kredit sign-up lagi
+3. Periksa ketentuan promosi yang berlaku pada saat pendaftaran
+
+- **CTA Link:** https://odysseyapi.tech/pricing
+- **Sumber:** https://odysseyapi.tech/pricing
+- **Berlaku:** uncertain (Ketersediaan kredit pendaftaran dapat berubah. Odyssey menyatakan kredit yang sudah diperoleh tidak kedaluwarsa.)
+
+🔗 **Link Detail:** https://bansos.dev/list/odyssey-api-5-signup-credit/
 
 ---
 
