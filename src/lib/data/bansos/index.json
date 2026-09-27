@@ -1,6 +1,6 @@
 {
 	"generatedAt": "2026-09-27",
-	"total": 119,
+	"total": 120,
 	"items": [
 		{
 			"id": "1412-api-github-registration",
@@ -998,6 +998,16 @@
 			"featured": false,
 			"publishedAt": "2026-07-22",
 			"contributorSlug": "superftch"
+		},
+		{
+			"id": "flushapi-referral-22-5-credit",
+			"title": "FlushAPI — Kredit API $22.5 via Referral",
+			"provider": "FlushAPI",
+			"status": "active",
+			"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools", "Referral"],
+			"featured": false,
+			"publishedAt": "2026-09-23",
+			"contributorSlug": "rafly0078"
 		},
 		{
 			"id": "tokenfaucet-daily-free-tokens",

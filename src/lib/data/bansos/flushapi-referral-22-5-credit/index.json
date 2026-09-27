@@ -1,0 +1,30 @@
+{
+	"id": "flushapi-referral-22-5-credit",
+	"title": "FlushAPI — Kredit API $22.5 via Referral",
+	"provider": "FlushAPI",
+	"description": "FlushAPI adalah agregator/router API LLM yang kompatibel dengan format OpenAI, menyediakan 16 model dari OpenAI, Anthropic, Alibaba (Qwen), DeepSeek, Z.ai (GLM), dan SenseTime. Akun baru mendapat kredit $15 otomatis, dan jika mendaftar melalui link referral kreditnya menjadi $22.5. Tersedia juga bonus check-in harian.",
+	"benefits": [
+		"Kredit API $22.5 saat daftar lewat link referral (vs $15 tanpa referral)",
+		"Akses 16 model LLM lintas vendor: OpenAI, Anthropic, Alibaba (Qwen), DeepSeek, Z.ai (GLM), SenseTime",
+		"Endpoint kompatibel dengan OpenAI, harga per-request dalam USD",
+		"Bonus check-in harian untuk kredit tambahan",
+		"Bonus afiliasi $7.5 untuk setiap teman yang ikut mendaftar"
+	],
+	"validity": {
+		"type": "uncertain",
+		"description": "Besaran kredit signup/referral mengikuti kebijakan FlushAPI dan dapat berubah sewaktu-waktu."
+	},
+	"requirements": [
+		"Daftar akun baru melalui link referral (bukan akun lama)",
+		"Kredit $22.5 masuk otomatis untuk akun baru via referral",
+		"Cek saldo di halaman Profile atau Dashboard FlushAPI"
+	],
+	"ctaLink": "https://flushapi.fun/sign-up?aff=Jk7F",
+	"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools", "Referral"],
+	"status": "active",
+	"featured": false,
+	"publishedAt": "2026-09-23",
+	"tips": "FlushAPI adalah layanan agregator API LLM pihak ketiga; ketersediaan model dan besaran kredit bisa berubah. Jangan membuat akun ganda untuk mengulang bonus. Manfaatkan check-in harian untuk kredit tambahan.",
+	"source": "https://flushapi.fun/docs",
+	"contributorSlug": "rafly0078"
+}

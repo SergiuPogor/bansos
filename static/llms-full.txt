@@ -1,5 +1,5 @@
 # bansos.dev — Dataset Lengkap
-> Diperbarui: 2026-09-27 | Total: 119 entri (101 aktif, 18 expired)
+> Diperbarui: 2026-09-27 | Total: 120 entri (102 aktif, 18 expired)
 
 ---
 
@@ -680,6 +680,36 @@
 - **Berlaku:** fixed — 2026-08-17 (Promo berlaku 17 Agustus 2026 mulai pukul 08.00 WIB; pembayaran dan konfirmasi harus dilakukan pada hari yang sama.)
 
 🔗 **Link Detail:** https://bansos.dev/list/domainesia-domain-id-rp50k-17-agustus-2026/
+
+---
+
+### FlushAPI — Kredit API $22.5 via Referral
+
+- **ID:** `flushapi-referral-22-5-credit`
+- **Provider:** FlushAPI
+- **Kategori:** AI Credits, API, AI Tools, Free Tier, Developer Tools, Referral
+- **Status:** active
+
+**Deskripsi:** FlushAPI adalah agregator/router API LLM yang kompatibel dengan format OpenAI, menyediakan 16 model dari OpenAI, Anthropic, Alibaba (Qwen), DeepSeek, Z.ai (GLM), dan SenseTime. Akun baru mendapat kredit $15 otomatis, dan jika mendaftar melalui link referral kreditnya menjadi $22.5. Tersedia juga bonus check-in harian.
+
+**Benefit:**
+- Kredit API $22.5 saat daftar lewat link referral (vs $15 tanpa referral)
+- Akses 16 model LLM lintas vendor: OpenAI, Anthropic, Alibaba (Qwen), DeepSeek, Z.ai (GLM), SenseTime
+- Endpoint kompatibel dengan OpenAI, harga per-request dalam USD
+- Bonus check-in harian untuk kredit tambahan
+- Bonus afiliasi $7.5 untuk setiap teman yang ikut mendaftar
+
+**Cara Klaim:**
+1. Daftar akun baru melalui link referral (bukan akun lama)
+2. Kredit $22.5 masuk otomatis untuk akun baru via referral
+3. Cek saldo di halaman Profile atau Dashboard FlushAPI
+
+- **CTA Link:** https://flushapi.fun/sign-up?aff=Jk7F
+- **Sumber:** https://flushapi.fun/docs
+- **Tips:** FlushAPI adalah layanan agregator API LLM pihak ketiga; ketersediaan model dan besaran kredit bisa berubah. Jangan membuat akun ganda untuk mengulang bonus. Manfaatkan check-in harian untuk kredit tambahan.
+- **Berlaku:** uncertain (Besaran kredit signup/referral mengikuti kebijakan FlushAPI dan dapat berubah sewaktu-waktu.)
+
+🔗 **Link Detail:** https://bansos.dev/list/flushapi-referral-22-5-credit/
 
 ---
 
