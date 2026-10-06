@@ -1,6 +1,6 @@
 {
 	"generatedAt": "2026-07-23",
-	"total": 77,
+	"total": 78,
 	"items": [
 		{
 			"id": "adobe-creative-cloud-pro-trial",
@@ -728,6 +728,16 @@
 			"featured": false,
 			"publishedAt": "2026-07-23",
 			"contributorSlug": "syafii-fahreza"
+		},
+		{
+			"id": "vyce-free-vps",
+			"title": "Vyce Cloud Free VPS",
+			"provider": "vyce.cloud",
+			"status": "active",
+			"tags": ["Cloud", "Free Tier", "Developer Tools", "VPS"],
+			"featured": false,
+			"publishedAt": "2026-10-06",
+			"contributorSlug": "rafly0078"
 		},
 		{
 			"id": "xai-grok-api-credits",
