@@ -1,0 +1,29 @@
+{
+	"id": "wave-starter-promo-oktober",
+	"title": "Wave AI Paket Starter Promo Oktober 2026",
+	"provider": "defyma.com",
+	"description": "Diskon spesial paket Starter Wave AI asisten WhatsApp cerdas 24/7 dari Rp199.000 menjadi Rp50.000/bulan selama Oktober 2026.",
+	"benefits": [
+		"1 Sesi nomor WhatsApp aktif",
+		"1.000 kuota pesan per bulan",
+		"Aktif 24/7 di cloud tanpa perlu server lokal",
+		"Akses dashboard analitik dan playground prompt"
+	],
+	"validity": {
+		"type": "fixed",
+		"date": "2026-10-31",
+		"description": "Berlaku khusus checkout selama bulan Oktober 2026"
+	},
+	"requirements": [
+		"Daftar akun di wave.ai.id",
+		"Buka menu Billing di dashboard",
+		"Checkout Paket Starter Promo Rp50.000"
+	],
+	"ctaLink": "https://wave.ai.id/login",
+	"tags": ["AI", "WhatsApp", "Automation", "Customer Support", "Diskon"],
+	"status": "active",
+	"featured": false,
+	"publishedAt": "2026-10-10",
+	"source": "https://wave.ai.id/blog/promo-spesial-oktober-2026-nikmati-paket-starter-wave-hanya-rp50-000",
+	"contributorSlug": "defyma"
+}
