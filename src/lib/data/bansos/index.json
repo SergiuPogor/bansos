@@ -1,6 +1,6 @@
 {
 	"generatedAt": "2026-10-12",
-	"total": 124,
+	"total": 125,
 	"items": [
 		{
 			"id": "1412-api-github-registration",
@@ -598,6 +598,16 @@
 			"tags": ["Domain", "domain17", "Diskon"],
 			"featured": false,
 			"publishedAt": "2026-08-17",
+			"contributorSlug": "wauputr4"
+		},
+		{
+			"id": "jagoanhosting-domain-webid-gratis-freewebid1k",
+			"title": "Promo Domain .WEB.ID Gratis dari Jagoan Hosting",
+			"provider": "Jagoan Hosting",
+			"status": "active",
+			"tags": ["Domain", "Gratisan"],
+			"featured": false,
+			"publishedAt": "2026-10-12",
 			"contributorSlug": "wauputr4"
 		},
 		{
