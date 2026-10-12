@@ -25,7 +25,7 @@ Domain .WEB.ID gratis untuk 1 tahun memakai kode FREEWEBID1K saat registrasi bar
 
 ## Tips
 
-Info kode berasal dari pengajuan komunitas dan belum ditemukan di halaman promo publik Jagoan Hosting. Gratis berlaku untuk tahun pertama bila kode diterima; cek harga perpanjangan sebelum membeli.
+Kode dari pengajuan komunitas berhasil diuji pada checkout Jagoan Hosting (12 Oktober 2026): potongan Rp45.000 dan total Rp0 untuk registrasi domain .WEB.ID contoh selama 1 tahun. Ketersediaan kode dapat berubah; periksa kembali total tagihan dan harga perpanjangan sebelum memesan.
 
 ---
 
