@@ -1,0 +1,15 @@
+{
+	"login": "defyma",
+	"displayName": "Defy Ma",
+	"title": "Software Engineer & Creator",
+	"bio": "Creator of Wave AI (wave.ai.id)",
+	"skills": ["Go", "Next.js", "AI", "WhatsApp", "PostgreSQL"],
+	"links": {
+		"github": "https://github.com/defyma",
+		"website": "https://defyma.com"
+	},
+	"contributedBansos": ["wave-starter-promo-oktober"],
+	"hidden": false,
+	"joinedAt": "2026-10-11",
+	"avatar": "https://github.com/defyma.png?size=96"
+}

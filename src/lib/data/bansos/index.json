@@ -1,6 +1,6 @@
 {
 	"generatedAt": "2026-10-12",
-	"total": 123,
+	"total": 124,
 	"items": [
 		{
 			"id": "1412-api-github-registration",
@@ -1158,6 +1158,16 @@
 			"featured": false,
 			"publishedAt": "2026-08-22",
 			"contributorSlug": "rifaldo-dev"
+		},
+		{
+			"id": "wave-starter-promo-oktober",
+			"title": "Wave AI Paket Starter Promo Oktober 2026",
+			"provider": "defyma.com",
+			"status": "active",
+			"tags": ["AI", "WhatsApp", "Automation", "Customer Support", "Diskon"],
+			"featured": false,
+			"publishedAt": "2026-10-10",
+			"contributorSlug": "defyma"
 		},
 		{
 			"id": "xai-grok-api-credits",
