@@ -1,7 +1,17 @@
 {
-	"generatedAt": "2026-07-23",
-	"total": 78,
+	"generatedAt": "2026-10-12",
+	"total": 123,
 	"items": [
+		{
+			"id": "1412-api-github-registration",
+			"title": "1412's API — Pendaftaran GitHub Terbuka",
+			"provider": "1412's API",
+			"status": "active",
+			"tags": ["API", "AI Tools", "Developer Tools", "GitHub OAuth", "Referral"],
+			"featured": false,
+			"publishedAt": "2026-09-10",
+			"contributorSlug": "syafii-fahreza"
+		},
 		{
 			"id": "adobe-creative-cloud-pro-trial",
 			"title": "Adobe Creative Cloud Pro Rp0 | Free Trial 4 Month",
@@ -36,7 +46,7 @@
 			"id": "agentrouter-free-150-credit",
 			"title": "AgentRouter Free $150 AI Credit + $25 Daily Reward",
 			"provider": "AgentRouter",
-			"status": "active",
+			"status": "expired",
 			"tags": ["AI", "AI Credits", "API", "Developer Tools"],
 			"featured": false,
 			"publishedAt": "2026-07-13",
@@ -53,14 +63,34 @@
 			"contributorSlug": "jovian"
 		},
 		{
+			"id": "agentrouter-free-50-credit-daily-checkin",
+			"title": "AgentRouter $50 New User Credit + $25 Daily Check-in",
+			"provider": "AgentRouter",
+			"status": "active",
+			"tags": ["AI", "AI Credits", "API", "Developer Tools", "Referral"],
+			"featured": false,
+			"publishedAt": "2026-08-21",
+			"contributorSlug": "ikan"
+		},
+		{
 			"id": "agentrouter-free-credits",
 			"title": "Free $200 Credit API LLM Populer",
 			"provider": "AgentRouter",
-			"status": "active",
+			"status": "expired",
 			"tags": ["AI Tools", "AI Credits", "API"],
 			"featured": false,
 			"publishedAt": "2026-06-18",
 			"contributorSlug": "hamba-allah"
+		},
+		{
+			"id": "ai-family-api-registration-checkin-referral",
+			"title": "AI-Family API — Pendaftaran Terbuka dan Check-in",
+			"provider": "AI-Family",
+			"status": "active",
+			"tags": ["API", "AI Tools", "Developer Tools", "Free Tier", "Check-in", "Referral"],
+			"featured": false,
+			"publishedAt": "2026-09-10",
+			"contributorSlug": "syafii-fahreza"
 		},
 		{
 			"id": "ai-hub-free-plan",
@@ -103,6 +133,16 @@
 			"contributorSlug": "wildan"
 		},
 		{
+			"id": "aisure-free-platform",
+			"title": "AISure — Free AI Workspace",
+			"provider": "AISure",
+			"status": "active",
+			"tags": ["AI", "Chat", "Free Tier", "Image", "Code", "UK"],
+			"featured": false,
+			"publishedAt": "2026-08-07",
+			"contributorSlug": "bahrulilmi"
+		},
+		{
 			"id": "amd-ai-dev-program",
 			"title": "Program Developer AMD AI",
 			"provider": "AMD",
@@ -111,6 +151,16 @@
 			"featured": false,
 			"publishedAt": "2026-06-13",
 			"contributorSlug": "devers"
+		},
+		{
+			"id": "artbloom-free-100-api-credit",
+			"title": "Artbloom Free $100 AI API Credit",
+			"provider": "Artbloom",
+			"status": "active",
+			"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools", "No Credit Card"],
+			"featured": false,
+			"publishedAt": "2026-09-28",
+			"contributorSlug": "rafly0078"
 		},
 		{
 			"id": "atomesus-free-1-year-subscription",
@@ -141,6 +191,16 @@
 			"featured": false,
 			"publishedAt": "2026-07-06",
 			"contributorSlug": "aditech"
+		},
+		{
+			"id": "biznetgio-domain-id-rp8100-17-agustus-2026",
+			"title": "Domain .ID Rp8.100 Biznet GIO — Festival Domain Merdeka 2026",
+			"provider": "Biznet GIO",
+			"status": "active",
+			"tags": ["Domain", "domain17", "Diskon"],
+			"featured": false,
+			"publishedAt": "2026-08-17",
+			"contributorSlug": "wauputr4"
 		},
 		{
 			"id": "bynara-ai-router-free-payg",
@@ -203,6 +263,16 @@
 			"contributorSlug": "dahono-labs"
 		},
 		{
+			"id": "dcloud-xplore-free-trial",
+			"title": "Free Trial 3 Bulan DCloud XPlore",
+			"provider": "DCloud",
+			"status": "active",
+			"tags": ["Cloud Services", "Free Trial", "Hosting"],
+			"featured": false,
+			"publishedAt": "2026-09-01",
+			"contributorSlug": "rifaldo-dev"
+		},
+		{
 			"id": "deepseek-free-token",
 			"title": "DeepSeek 5M Token Gratis buat Ngoding AI",
 			"provider": "DeepSeek",
@@ -231,6 +301,36 @@
 			"featured": false,
 			"publishedAt": "2026-06-23",
 			"contributorSlug": "risal"
+		},
+		{
+			"id": "domainesia-domain-id-rp50k-17-agustus-2026",
+			"title": "Promo Domain .ID Rp50.000 DomaiNesia — 17 Agustus 2026",
+			"provider": "DomaiNesia",
+			"status": "active",
+			"tags": ["Domain", "domain17", "Diskon"],
+			"featured": false,
+			"publishedAt": "2026-08-17",
+			"contributorSlug": "wauputr4"
+		},
+		{
+			"id": "flushapi-referral-22-5-credit",
+			"title": "FlushAPI — Kredit API $22.5 via Referral",
+			"provider": "FlushAPI",
+			"status": "active",
+			"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools", "Referral"],
+			"featured": false,
+			"publishedAt": "2026-09-23",
+			"contributorSlug": "rafly0078"
+		},
+		{
+			"id": "free-5-credit-for-new-opencode-go-users",
+			"title": "Free $5 Credit for New OpenCode Go Users",
+			"provider": "Opencode",
+			"status": "active",
+			"tags": ["AI", "Developer Tools", "Coding", "Discount", "Referral"],
+			"featured": false,
+			"publishedAt": "2026-07-25",
+			"contributorSlug": "gilangpambudi"
 		},
 		{
 			"id": "freebuff-ai-builder",
@@ -301,6 +401,16 @@
 			"contributorSlug": "wauputr4"
 		},
 		{
+			"id": "godrouter-free-50-credit",
+			"title": "God Router Free $50 AI Credit + $30 Bonus Referral",
+			"provider": "God Router",
+			"status": "expired",
+			"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools"],
+			"featured": false,
+			"publishedAt": "2026-08-18",
+			"contributorSlug": "syafii-fahreza"
+		},
+		{
 			"id": "google-ai-pro-4-bulan",
 			"title": "Google AI Pro Gratis 4 Bulan",
 			"provider": "Google",
@@ -309,6 +419,16 @@
 			"featured": false,
 			"publishedAt": "2026-06-16",
 			"contributorSlug": "akbar"
+		},
+		{
+			"id": "google-gemini-student",
+			"title": "Google Gemini Paket Mahasiswa 1 Tahun Tanpa Biaya",
+			"provider": "Google",
+			"status": "active",
+			"tags": ["AI", "Cloud Services", "Gratisan", "Mahasiswa"],
+			"featured": false,
+			"publishedAt": "2026-08-22",
+			"contributorSlug": "rifaldo-dev"
 		},
 		{
 			"id": "google-startups-cloud",
@@ -321,6 +441,16 @@
 			"contributorSlug": "devers"
 		},
 		{
+			"id": "gorouter-free-75-ai-credit",
+			"title": "GoRouter Free $75 AI Credit",
+			"provider": "GoRouter",
+			"status": "active",
+			"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools"],
+			"featured": false,
+			"publishedAt": "2026-07-29",
+			"contributorSlug": "rafly0078"
+		},
+		{
 			"id": "gumloop-free-credits",
 			"title": "Gratis 6,6 Ribu Kredit Agen AI di Gumloop (Tersedia Model Populer)",
 			"provider": "Gumloop",
@@ -329,6 +459,66 @@
 			"featured": false,
 			"publishedAt": "2026-06-20",
 			"contributorSlug": "brian"
+		},
+		{
+			"id": "gurouter-free-credit-model-gratis",
+			"title": "GuRouter Free $0.2 Credit + Model Gratis $0",
+			"provider": "GuRouter",
+			"status": "active",
+			"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools"],
+			"featured": false,
+			"publishedAt": "2026-09-19",
+			"contributorSlug": "rafly0078"
+		},
+		{
+			"id": "hcnsec-free-30k-api-credit",
+			"title": "hcnsec Free ¥30K API Credit",
+			"provider": "hcnsec",
+			"status": "active",
+			"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools"],
+			"featured": false,
+			"publishedAt": "2026-08-09",
+			"contributorSlug": "rafly0078"
+		},
+		{
+			"id": "helipod-domain-id-rp45k-hosting-merdeka-2026",
+			"title": "Promo Domain .ID Rp45.000 & Hosting Helipod — 17 Agustus 2026",
+			"provider": "Helipod",
+			"status": "active",
+			"tags": ["Domain", "domain17", "Hosting", "Cloud"],
+			"featured": false,
+			"publishedAt": "2026-08-17",
+			"contributorSlug": "wauputr4"
+		},
+		{
+			"id": "huige-relay-free-100-api-calls",
+			"title": "Huige Relay Free 100 API Calls + 50 Bonus Referral",
+			"provider": "Huige Relay (辉哥中转公益站)",
+			"status": "active",
+			"tags": ["AI Credits", "API", "Free Tier", "AI Tools", "Developer Tools"],
+			"featured": false,
+			"publishedAt": "2026-08-19",
+			"contributorSlug": "syafii-fahreza"
+		},
+		{
+			"id": "idcloudhost-cloud-vps-bonus-rp100k-ai-agent-2026",
+			"title": "Bonus Saldo Cloud VPS Rp100.000 IDCloudHost untuk AI Agent",
+			"provider": "IDCloudHost",
+			"status": "active",
+			"tags": ["Cloud Services", "Cloud VPS", "Credits", "AI"],
+			"featured": false,
+			"publishedAt": "2026-08-17",
+			"contributorSlug": "wauputr4"
+		},
+		{
+			"id": "idcloudhost-domain-id-rp50k-17-agustus-2026",
+			"title": "Promo Domain .ID Rp50.000 IDCloudHost — 17 Agustus 2026",
+			"provider": "IDCloudHost",
+			"status": "active",
+			"tags": ["Domain", "domain17", "Diskon"],
+			"featured": false,
+			"publishedAt": "2026-08-17",
+			"contributorSlug": "wauputr4"
 		},
 		{
 			"id": "idwebhost-claim-domain-gratis-myid-juli2026",
@@ -351,6 +541,16 @@
 			"contributorSlug": "aziz-budi-satrio"
 		},
 		{
+			"id": "idwebhost-domain-id-rp50k-17-agustus-2026",
+			"title": "Flash Sale Domain .ID Rp50.000 dari IDwebhost — 17 Agustus 2026",
+			"provider": "IDwebhost",
+			"status": "active",
+			"tags": ["Domain", "domain17", "Diskon"],
+			"featured": false,
+			"publishedAt": "2026-08-17",
+			"contributorSlug": "wauputr4"
+		},
+		{
 			"id": "inceptionlabs-get-started",
 			"title": "10M Free Token Inception Platform",
 			"provider": "Inception",
@@ -358,6 +558,46 @@
 			"tags": ["AI Credits", "API", "Free Tier"],
 			"featured": false,
 			"publishedAt": "2026-06-12",
+			"contributorSlug": "wauputr4"
+		},
+		{
+			"id": "inferx-deepseek-v4-flash",
+			"title": "DeepSeek V4 Flash Gratis di InferX",
+			"provider": "InferX",
+			"status": "active",
+			"tags": ["AI", "API", "Free Tier"],
+			"featured": false,
+			"publishedAt": "2026-08-08",
+			"contributorSlug": "renyx"
+		},
+		{
+			"id": "jagoanhosting-domain-id-rp100k-15-19-september-2026",
+			"title": "Promo Domain .ID Rp100.000 Jagoan Hosting — HUT PANDI 2026",
+			"provider": "Jagoan Hosting",
+			"status": "active",
+			"tags": ["Domain", "Diskon"],
+			"featured": false,
+			"publishedAt": "2026-09-15",
+			"contributorSlug": "wauputr4"
+		},
+		{
+			"id": "jagoanhosting-domain-id-rp50k-20-september-2026",
+			"title": "Flash Sale Domain .ID Rp50.000 Jagoan Hosting — HUT PANDI 2026",
+			"provider": "Jagoan Hosting",
+			"status": "upcoming",
+			"tags": ["Domain", "Diskon"],
+			"featured": false,
+			"publishedAt": "2026-09-20",
+			"contributorSlug": "wauputr4"
+		},
+		{
+			"id": "jagoanhosting-domain-id-rp50k-merdeka-2026",
+			"title": "Promo Domain .ID Rp50.000 + Gratis .MY.ID dari Jagoan Hosting — 17 Agustus 2026",
+			"provider": "Jagoan Hosting",
+			"status": "active",
+			"tags": ["Domain", "domain17", "Diskon"],
+			"featured": false,
+			"publishedAt": "2026-08-17",
 			"contributorSlug": "wauputr4"
 		},
 		{
@@ -401,6 +641,26 @@
 			"contributorSlug": "wauputr4"
 		},
 		{
+			"id": "jetbrains-student-pack",
+			"title": "JetBrains Student Pack — Semua IDE Gratis untuk Pelajar",
+			"provider": "JetBrains",
+			"status": "active",
+			"tags": ["Developer Tools", "IDEs", "Free Tier", "Student", "Education"],
+			"featured": false,
+			"publishedAt": "2026-08-05",
+			"contributorSlug": "wenn-id"
+		},
+		{
+			"id": "justdowork-free-50-ai-credit-bonus-check-in-harian",
+			"title": "JustDoWork Free $50 AI Credit + Check-in Harian",
+			"provider": "JustDoWork",
+			"status": "active",
+			"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools", "Referral"],
+			"featured": false,
+			"publishedAt": "2026-08-19",
+			"contributorSlug": "syafii-fahreza"
+		},
+		{
 			"id": "kie-ai-api-discount-credit",
 			"title": "Kie.ai Free Credit & API Lebih Murah buat AI Builder",
 			"provider": "Kie.ai",
@@ -419,6 +679,36 @@
 			"featured": false,
 			"publishedAt": "2026-06-12",
 			"contributorSlug": "devers"
+		},
+		{
+			"id": "kira-ai-free-50000-tokens-referral",
+			"title": "Kira AI — 50.000 Token Gratis untuk Anggota Baru",
+			"provider": "Kira AI",
+			"status": "active",
+			"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools", "Referral"],
+			"featured": false,
+			"publishedAt": "2026-09-10",
+			"contributorSlug": "syafii-fahreza"
+		},
+		{
+			"id": "kktoken-free-75-credit-bonus-referral",
+			"title": "KKtoken AI Free $75 Credit + $25 Bonus Referral",
+			"provider": "KKtoken AI",
+			"status": "active",
+			"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools", "Referral"],
+			"featured": false,
+			"publishedAt": "2026-08-28",
+			"contributorSlug": "syafii-fahreza"
+		},
+		{
+			"id": "liminality-free-checkin",
+			"title": "Liminality API - Check-in Harian Gratis dan Akses API OpenAI-Compatible",
+			"provider": "Liminality",
+			"status": "active",
+			"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools"],
+			"featured": false,
+			"publishedAt": "2026-08-24",
+			"contributorSlug": "rafly0078"
 		},
 		{
 			"id": "lovable-free-pro-plan",
@@ -451,6 +741,16 @@
 			"contributorSlug": "devers"
 		},
 		{
+			"id": "miarouter-free-20-ai-credit",
+			"title": "MiaRouter Free $20 AI Credit",
+			"provider": "MiaRouter",
+			"status": "active",
+			"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools"],
+			"featured": false,
+			"publishedAt": "2026-09-27",
+			"contributorSlug": "rafly0078"
+		},
+		{
 			"id": "microsoft-founders-hub",
 			"title": "Microsoft for Startups Founders Hub (Kredit Azure hingga $150.000)",
 			"provider": "Microsoft",
@@ -469,6 +769,16 @@
 			"featured": false,
 			"publishedAt": "2026-07-06",
 			"contributorSlug": "mugi-wiguna"
+		},
+		{
+			"id": "modeloc-invite-100k-compute",
+			"title": "MODELOC Invite — 100k Compute (≈ $10) untuk Akun Baru",
+			"provider": "MODELOC",
+			"status": "active",
+			"tags": ["AI Credits", "API", "LLM", "Referral"],
+			"featured": false,
+			"publishedAt": "2026-08-14",
+			"contributorSlug": "rafly0078"
 		},
 		{
 			"id": "modelset-free-credit",
@@ -560,10 +870,20 @@
 			"contributorSlug": "rizkysiregar23"
 		},
 		{
+			"id": "odyssey-api-5-signup-credit",
+			"title": "Kredit API Gratis $5 Saat Daftar di Odyssey",
+			"provider": "Odyssey",
+			"status": "active",
+			"tags": ["AI Credits", "API", "LLM"],
+			"featured": false,
+			"publishedAt": "2026-09-15",
+			"contributorSlug": "rafly0078"
+		},
+		{
 			"id": "opencode-go-free-5-credit",
 			"title": "Free $5 Credit in Opencode GO - Referral links",
 			"provider": "Opencode Go",
-			"status": "active",
+			"status": "expired",
 			"tags": ["AI Credits", "AI", "API", "Promo"],
 			"featured": false,
 			"publishedAt": "2026-06-24",
@@ -591,19 +911,39 @@
 		},
 		{
 			"id": "promo-domain-sitequ",
-			"title": "Promo Domain .MY.ID, .BIZ.ID, dan .WEB.ID Rp3.500",
+			"title": "PROMO MENYAMBUT KEMERDEKAAN: Domain .MY.ID, .BIZ.ID, dan .WEB.ID Rp2.000",
 			"provider": "SITEQU Digital Indonesia",
 			"status": "active",
 			"tags": ["Domain", "Diskon"],
 			"featured": false,
-			"publishedAt": "2026-07-23",
+			"publishedAt": "2026-08-02",
 			"contributorSlug": "sitequ-digital-indonesia"
+		},
+		{
+			"id": "qianxing-ai-free-2-credit",
+			"title": "QianXing AI Free $2 API Credit + Check-in Harian",
+			"provider": "QianXing AI",
+			"status": "active",
+			"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools", "No Credit Card"],
+			"featured": false,
+			"publishedAt": "2026-09-19",
+			"contributorSlug": "rafly0078"
+		},
+		{
+			"id": "qoder-qwen-38-max-free",
+			"title": "Qoder Qwen3.8-Max — 800–2.000 Panggilan Gratis",
+			"provider": "Qoder",
+			"status": "active",
+			"tags": ["AI", "AI Credits"],
+			"featured": false,
+			"publishedAt": "2026-08-08",
+			"contributorSlug": "renyx"
 		},
 		{
 			"id": "qoder-qwen-max-free",
 			"title": "200 Panggilan Model Qwen3.7-Max Gratis per Hari di Qoder",
 			"provider": "Qoder",
-			"status": "active",
+			"status": "expired",
 			"tags": ["AI Credits"],
 			"featured": false,
 			"publishedAt": "2026-06-15",
@@ -620,6 +960,16 @@
 			"contributorSlug": "rey"
 		},
 		{
+			"id": "seekai-free-200-ai-credit",
+			"title": "SeekAi Free $200 AI Credit",
+			"provider": "SeekAi",
+			"status": "active",
+			"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools"],
+			"featured": false,
+			"publishedAt": "2026-08-02",
+			"contributorSlug": "syafii-fahreza"
+		},
+		{
 			"id": "servernusa-free-xiaomi-mimo",
 			"title": "Akses Gratis Model AI Xiaomi Mimo via ServerNusa",
 			"provider": "ServerNusa",
@@ -628,6 +978,16 @@
 			"featured": false,
 			"publishedAt": "2026-06-21",
 			"contributorSlug": "devers"
+		},
+		{
+			"id": "starbridge-free-24-yuan-api-credit",
+			"title": "StarBridge Free ¥24 API Credit + Check-in Harian",
+			"provider": "StarBridge",
+			"status": "active",
+			"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools", "No Credit Card"],
+			"featured": false,
+			"publishedAt": "2026-09-19",
+			"contributorSlug": "rafly0078"
 		},
 		{
 			"id": "subdomain-gratis-permanen-untuk-developer-pelajar-dari-digitalplat",
@@ -650,6 +1010,16 @@
 			"contributorSlug": "devers"
 		},
 		{
+			"id": "tabiai-free-120-api-credit",
+			"title": "TaBiAI Free API Credit",
+			"provider": "TaBiAI",
+			"status": "active",
+			"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools"],
+			"featured": false,
+			"publishedAt": "2026-08-09",
+			"contributorSlug": "rafly0078"
+		},
+		{
 			"id": "tencent-cloud-free-tier",
 			"title": "Tencent Cloud Free Tier (Trial Gratis 30+ Produk)",
 			"provider": "Tencent Cloud",
@@ -670,6 +1040,16 @@
 			"contributorSlug": "syafii-fahreza"
 		},
 		{
+			"id": "tokenforge-free-beta",
+			"title": "TokenForge Free Beta - Kredit Promosi dan Akses GLM-5.2 & Grok 4.5",
+			"provider": "TokenForge",
+			"status": "active",
+			"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools"],
+			"featured": false,
+			"publishedAt": "2026-08-24",
+			"contributorSlug": "rafly0078"
+		},
+		{
 			"id": "tokengo-inference-api",
 			"title": "TokenGO API Inference Free $5 Credits",
 			"provider": "TokenGO",
@@ -678,6 +1058,16 @@
 			"featured": false,
 			"publishedAt": "2026-07-15",
 			"contributorSlug": "zulhanf"
+		},
+		{
+			"id": "tokenharbor-free-5-credit",
+			"title": "Token Harbor Free $5 Credit + Model AI Gratis",
+			"provider": "Token Harbor",
+			"status": "active",
+			"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools"],
+			"featured": false,
+			"publishedAt": "2026-08-09",
+			"contributorSlug": "syafii-fahreza"
 		},
 		{
 			"id": "tokenrouter-minimax-m3-free",
@@ -710,6 +1100,16 @@
 			"contributorSlug": "bang-joe"
 		},
 		{
+			"id": "upcloud-free-trial",
+			"title": "UpCloud Free Trial hingga 30 Hari + $500",
+			"provider": "UpCloud",
+			"status": "active",
+			"tags": ["Cloud", "Hosting", "Free Trial", "Developer Tools"],
+			"featured": false,
+			"publishedAt": "2026-08-03",
+			"contributorSlug": "wauputr4"
+		},
+		{
 			"id": "v0-vercel-ai-credits-up-to-200",
 			"title": "v0 (Vercel) - AI Credits hingga $200",
 			"provider": "v0 (Vercel)",
@@ -730,6 +1130,16 @@
 			"contributorSlug": "syafii-fahreza"
 		},
 		{
+			"id": "vyce-ai-free-40-credit",
+			"title": "Vyce AI Free $40 Credit + $10 Bonus Referral",
+			"provider": "Vyce AI",
+			"status": "active",
+			"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools"],
+			"featured": false,
+			"publishedAt": "2026-08-02",
+			"contributorSlug": "syafii-fahreza"
+		},
+		{
 			"id": "vyce-free-vps",
 			"title": "Vyce Cloud Free VPS",
 			"provider": "vyce.cloud",
@@ -738,6 +1148,16 @@
 			"featured": false,
 			"publishedAt": "2026-10-06",
 			"contributorSlug": "rafly0078"
+		},
+		{
+			"id": "wasmer-pro",
+			"title": "Wasmer Pro 3 Bulan Tanpa Kartu Kredit",
+			"provider": "Wasmer",
+			"status": "active",
+			"tags": ["Cloud Services", "Hosting", "Gratisan"],
+			"featured": false,
+			"publishedAt": "2026-08-22",
+			"contributorSlug": "rifaldo-dev"
 		},
 		{
 			"id": "xai-grok-api-credits",
@@ -750,14 +1170,34 @@
 			"contributorSlug": "devers"
 		},
 		{
+			"id": "xiaomi-mimo-api-key-gratis",
+			"title": "Xiaomi MiMo API Key Gratis — $2 Kredit + Diskon 10%",
+			"provider": "Xiaomi MiMo",
+			"status": "active",
+			"tags": ["AI Credits", "API"],
+			"featured": false,
+			"publishedAt": "2026-08-08",
+			"contributorSlug": "renyx"
+		},
+		{
 			"id": "xiaomi-mimo-gratis-2",
 			"title": "Xiaomi Mimo Gratis $2",
 			"provider": "Xiaomi Mimo",
-			"status": "active",
+			"status": "expired",
 			"tags": ["AI Credits"],
 			"featured": false,
 			"publishedAt": "2026-06-17",
 			"contributorSlug": "akbar"
+		},
+		{
+			"id": "xkiro-pro-7-hari",
+			"title": "xKiro Pro Gratis 7 Hari — API AI Multi-Model",
+			"provider": "xKiro",
+			"status": "active",
+			"tags": ["AI", "API", "Free Trial"],
+			"featured": false,
+			"publishedAt": "2026-08-08",
+			"contributorSlug": "renyx"
 		},
 		{
 			"id": "zcode-glm-52-free",
@@ -768,6 +1208,16 @@
 			"featured": false,
 			"publishedAt": "2026-06-14",
 			"contributorSlug": "aofsnorth"
+		},
+		{
+			"id": "zenhosta-domain-id-rp50k-merdeka-2026",
+			"title": "Promo Domain .ID Zenhosta Rp50.000 — Merdeka 2026",
+			"provider": "Zenhosta",
+			"status": "active",
+			"tags": ["Domain", "domain17", "Diskon"],
+			"featured": false,
+			"publishedAt": "2026-08-17",
+			"contributorSlug": "wauputr4"
 		},
 		{
 			"id": "zenhosta-gratis-domain-1-tahun",

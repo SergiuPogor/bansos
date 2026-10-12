@@ -1,4 +1,4 @@
-# ✅ Free $200 Credit API LLM Populer
+# ❌ Free $200 Credit API LLM Populer
 
 **Provider:** AgentRouter
 
@@ -6,7 +6,7 @@ Langsung dapat $200 setelah mendaftar.
 
 Tersedia 10 model LLM yang bisa digunakan melalui API key.
 
-> **Status:** Aktif
+> **Status:** Kadaluwarsa
 
 ## Keuntungan
 

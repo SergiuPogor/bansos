@@ -1,0 +1,28 @@
+{
+	"id": "gorouter-free-75-ai-credit",
+	"title": "GoRouter Free $75 AI Credit",
+	"provider": "GoRouter",
+	"description": "GoRouter memberikan kredit API senilai $75 untuk pengguna baru yang login menggunakan akun GitHub. Kredit dapat dipakai untuk mengakses model Claude Opus 4.8 dan Claude Opus 5.",
+	"benefits": [
+		"Kredit API senilai $75 untuk pengguna baru",
+		"Bisa dipakai untuk model Claude Opus 4.8 dan Claude Opus 5",
+		"Login cukup dengan akun GitHub"
+	],
+	"validity": {
+		"type": "uncertain",
+		"description": "Ketersediaan dan besaran kredit mengikuti kebijakan GoRouter"
+	},
+	"requirements": [
+		"Login menggunakan akun GitHub",
+		"Umur akun GitHub minimal 1 bulan",
+		"Daftar melalui link yang tersedia",
+		"Cek saldo kredit di dashboard GoRouter"
+	],
+	"ctaLink": "https://gorouter.app/sign-up?aff=9hk5",
+	"tags": ["AI Credits", "API", "AI Tools", "Free Tier", "Developer Tools"],
+	"status": "active",
+	"featured": false,
+	"publishedAt": "2026-07-29",
+	"source": "https://gorouter.app/sign-up?aff=9hk5",
+	"contributorSlug": "rafly0078"
+}

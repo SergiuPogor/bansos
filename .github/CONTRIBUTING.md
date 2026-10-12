@@ -33,6 +33,11 @@ Kalau kamu lebih nyaman kirim via PR:
 - Jika perubahan UI, sertakan preview/screenshot di PR.
 - Jika terkait SEO/performa, sebutkan dampak yang diharapkan.
 
+### Aturan referral
+
+- Listing yang memakai referral kontributor berlaku satu bulan sejak `publishedAt`; setelah itu maintainer menandai listing lama sebagai `expired` sebelum menerima referral pengganti.
+- Jangan menimpa referral aktif milik kontributor lain. Masa berlaku promo provider tetap terpisah dari masa tampil referral ini.
+
 ## Helper lokal
 
 - `--benefits` dan `--requirements`: dipisah pakai `|`.

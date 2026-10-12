@@ -1,0 +1,27 @@
+{
+	"id": "free-5-credit-for-new-opencode-go-users",
+	"title": "Free $5 Credit for New OpenCode Go Users",
+	"provider": "Opencode",
+	"description": "Pengguna baru yang berlangganan OpenCode Go melalui referral ini dan kontributor referral masing-masing memperoleh $5 usage credit.",
+	"benefits": [
+		"Pengguna baru dan kontributor referral masing-masing memperoleh $5 usage credit",
+		"OpenCode Go mulai $5 untuk bulan pertama, lalu $10 per bulan",
+		"Akses ke model-model populer seperti Grok 4.5, GLM-5.2, dan 14+ lainnya."
+	],
+	"validity": {
+		"type": "fixed",
+		"date": "2026-08-25",
+		"description": "Listing referral berlaku satu bulan sejak publikasi."
+	},
+	"requirements": [
+		"Pengguna baru OpenCode Go",
+		"Berlangganan OpenCode Go melalui link referral ini"
+	],
+	"ctaLink": "https://opencode.ai/go?ref=SM54C9EKXF",
+	"source": "https://opencode.ai/go?ref=SM54C9EKXF",
+	"tags": ["AI", "Developer Tools", "Coding", "Discount", "Referral"],
+	"status": "active",
+	"featured": false,
+	"publishedAt": "2026-07-25",
+	"contributorSlug": "gilangpambudi"
+}
